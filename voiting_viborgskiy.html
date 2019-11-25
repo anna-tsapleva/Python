@@ -1,0 +1,3426 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3875e4412e74479bd73679ff195789d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d3875e4412e74479bd73679ff195789d" ></div>
+        
+</body>
+<script>    
+    
+            var map_d3875e4412e74479bd73679ff195789d = L.map(
+                "map_d3875e4412e74479bd73679ff195789d",
+                {
+                    center: [60.051313, 30.340559],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c2bf689b55243b7a7cffec8a8a975a1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+            var circle_cf28231f1e1d47489791feda5acb814d = L.circle(
+                [60.049312, 30.372462],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d57307bb6a8f4b6393234c2c6f4aaeb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a326cfe9964481299e242eeea7a7d17 = $(`<div id="html_9a326cfe9964481299e242eeea7a7d17" style="width: 100.0%; height: 100.0%;">УИК №199 Амосов-16.07% Беглов-58.53% Тихонова-21.63%</div>`)[0];
+            popup_d57307bb6a8f4b6393234c2c6f4aaeb2.setContent(html_9a326cfe9964481299e242eeea7a7d17);
+        
+
+        circle_cf28231f1e1d47489791feda5acb814d.bindPopup(popup_d57307bb6a8f4b6393234c2c6f4aaeb2)
+        ;
+
+        
+    
+    
+            var circle_fb38efc0f9ac45a595fad1657af9a24e = L.circle(
+                [60.049312, 30.372462],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f72e4b5e91ca4fd7a34c4339872d37f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b634805a0def4e2ca2b02ba59285b86d = $(`<div id="html_b634805a0def4e2ca2b02ba59285b86d" style="width: 100.0%; height: 100.0%;">УИК №200 Амосов-12.76% Беглов-62.59% Тихонова-21.26%</div>`)[0];
+            popup_f72e4b5e91ca4fd7a34c4339872d37f4.setContent(html_b634805a0def4e2ca2b02ba59285b86d);
+        
+
+        circle_fb38efc0f9ac45a595fad1657af9a24e.bindPopup(popup_f72e4b5e91ca4fd7a34c4339872d37f4)
+        ;
+
+        
+    
+    
+            var circle_3d3a847dcbfe41b38c3ff7f5f8b90ec3 = L.circle(
+                [60.052923, 30.364826],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a9b1bc0c0ee84a70977d871d6129e66a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a980d495bc9b47708483559a42b8714e = $(`<div id="html_a980d495bc9b47708483559a42b8714e" style="width: 100.0%; height: 100.0%;">УИК №201 Амосов-11.95% Беглов-63.38% Тихонова-21.56%</div>`)[0];
+            popup_a9b1bc0c0ee84a70977d871d6129e66a.setContent(html_a980d495bc9b47708483559a42b8714e);
+        
+
+        circle_3d3a847dcbfe41b38c3ff7f5f8b90ec3.bindPopup(popup_a9b1bc0c0ee84a70977d871d6129e66a)
+        ;
+
+        
+    
+    
+            var circle_e52c4fe005324ba2b3e8fc29f39f7868 = L.circle(
+                [60.052923, 30.364826],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_84c197f4df844abba96179df869976c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fff969ee886147338214d8d21d6f20f9 = $(`<div id="html_fff969ee886147338214d8d21d6f20f9" style="width: 100.0%; height: 100.0%;">УИК №202 Амосов-15.37% Беглов-68.78% Тихонова-13.17%</div>`)[0];
+            popup_84c197f4df844abba96179df869976c9.setContent(html_fff969ee886147338214d8d21d6f20f9);
+        
+
+        circle_e52c4fe005324ba2b3e8fc29f39f7868.bindPopup(popup_84c197f4df844abba96179df869976c9)
+        ;
+
+        
+    
+    
+            var circle_777edf48bbdd49b488540ade35aed729 = L.circle(
+                [60.054383, 30.355107],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2379a785d32449c693801ea0cd8e46c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e00667409d0b45eaa1ddb5c7ad43463a = $(`<div id="html_e00667409d0b45eaa1ddb5c7ad43463a" style="width: 100.0%; height: 100.0%;">УИК №203 Амосов-25.69% Беглов-49.31% Тихонова-20.14%</div>`)[0];
+            popup_2379a785d32449c693801ea0cd8e46c5.setContent(html_e00667409d0b45eaa1ddb5c7ad43463a);
+        
+
+        circle_777edf48bbdd49b488540ade35aed729.bindPopup(popup_2379a785d32449c693801ea0cd8e46c5)
+        ;
+
+        
+    
+    
+            var circle_50728635e8074ca7b88ff04505d61119 = L.circle(
+                [60.052923, 30.364826],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9226e08118af46edadac9e9c2c795185 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2548830489e7460ca8b682e91dc48a91 = $(`<div id="html_2548830489e7460ca8b682e91dc48a91" style="width: 100.0%; height: 100.0%;">УИК №204 Амосов-15.33% Беглов-65.78% Тихонова-17.11%</div>`)[0];
+            popup_9226e08118af46edadac9e9c2c795185.setContent(html_2548830489e7460ca8b682e91dc48a91);
+        
+
+        circle_50728635e8074ca7b88ff04505d61119.bindPopup(popup_9226e08118af46edadac9e9c2c795185)
+        ;
+
+        
+    
+    
+            var circle_2d91f0b25b2a4ba2aea61c918aaa7d8c = L.circle(
+                [60.049208, 30.359921],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_7afd939166ba43df8b955473120c4a34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a910a75e7546f89f0d5b843997b12b = $(`<div id="html_97a910a75e7546f89f0d5b843997b12b" style="width: 100.0%; height: 100.0%;">УИК №205 Амосов-16.56% Беглов-63.88% Тихонова-16.22%</div>`)[0];
+            popup_7afd939166ba43df8b955473120c4a34.setContent(html_97a910a75e7546f89f0d5b843997b12b);
+        
+
+        circle_2d91f0b25b2a4ba2aea61c918aaa7d8c.bindPopup(popup_7afd939166ba43df8b955473120c4a34)
+        ;
+
+        
+    
+    
+            var circle_3c39376ee4b84b9cadcd259d33026eb1 = L.circle(
+                [60.049208, 30.359921],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e9260eab39de4d36a2ed5a361dfa0ebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_433da03bf7654a76849fc4123d8df52f = $(`<div id="html_433da03bf7654a76849fc4123d8df52f" style="width: 100.0%; height: 100.0%;">УИК №206 Амосов-13.9% Беглов-66.98% Тихонова-16.9%</div>`)[0];
+            popup_e9260eab39de4d36a2ed5a361dfa0ebd.setContent(html_433da03bf7654a76849fc4123d8df52f);
+        
+
+        circle_3c39376ee4b84b9cadcd259d33026eb1.bindPopup(popup_e9260eab39de4d36a2ed5a361dfa0ebd)
+        ;
+
+        
+    
+    
+            var circle_4776d1e20b1b4b0fbe6fa5e0416f80e1 = L.circle(
+                [60.049208, 30.359921],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_315eccdd6a104ef79f73d6c25e2a1709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_998e6485f1f048b5bb0bab59c9dac4e0 = $(`<div id="html_998e6485f1f048b5bb0bab59c9dac4e0" style="width: 100.0%; height: 100.0%;">УИК №207 Амосов-19.51% Беглов-61.23% Тихонова-17.28%</div>`)[0];
+            popup_315eccdd6a104ef79f73d6c25e2a1709.setContent(html_998e6485f1f048b5bb0bab59c9dac4e0);
+        
+
+        circle_4776d1e20b1b4b0fbe6fa5e0416f80e1.bindPopup(popup_315eccdd6a104ef79f73d6c25e2a1709)
+        ;
+
+        
+    
+    
+            var circle_53ef83d2d3d941c6839b22cb500ff3f5 = L.circle(
+                [60.052923, 30.364826],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2226107f6411475d8a1accb7e208f315 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c779d89f8c8e4d729a1534de78228656 = $(`<div id="html_c779d89f8c8e4d729a1534de78228656" style="width: 100.0%; height: 100.0%;">УИК №208 Амосов-21.01% Беглов-56.44% Тихонова-20.25%</div>`)[0];
+            popup_2226107f6411475d8a1accb7e208f315.setContent(html_c779d89f8c8e4d729a1534de78228656);
+        
+
+        circle_53ef83d2d3d941c6839b22cb500ff3f5.bindPopup(popup_2226107f6411475d8a1accb7e208f315)
+        ;
+
+        
+    
+    
+            var circle_1eaeb9a83a264222bd36e7227030f7d8 = L.circle(
+                [60.049312, 30.372462],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_778ecbb5c9c54234bdfabbe32d61d9c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8935c299592340b7b1ee3cce45af5464 = $(`<div id="html_8935c299592340b7b1ee3cce45af5464" style="width: 100.0%; height: 100.0%;">УИК №209 Амосов-18.03% Беглов-61.9% Тихонова-18.22%</div>`)[0];
+            popup_778ecbb5c9c54234bdfabbe32d61d9c3.setContent(html_8935c299592340b7b1ee3cce45af5464);
+        
+
+        circle_1eaeb9a83a264222bd36e7227030f7d8.bindPopup(popup_778ecbb5c9c54234bdfabbe32d61d9c3)
+        ;
+
+        
+    
+    
+            var circle_054cf3b494ad4a488e126160e395b8de = L.circle(
+                [60.049312, 30.372462],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_665d4a5623e046daa83e589361c8f4c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d22fcfc64264cadaefce9d842da8826 = $(`<div id="html_4d22fcfc64264cadaefce9d842da8826" style="width: 100.0%; height: 100.0%;">УИК №210 Амосов-16.8% Беглов-63.62% Тихонова-16.27%</div>`)[0];
+            popup_665d4a5623e046daa83e589361c8f4c2.setContent(html_4d22fcfc64264cadaefce9d842da8826);
+        
+
+        circle_054cf3b494ad4a488e126160e395b8de.bindPopup(popup_665d4a5623e046daa83e589361c8f4c2)
+        ;
+
+        
+    
+    
+            var circle_01244a8d61b54c1881636aea9bbcbb54 = L.circle(
+                [60.040451, 30.365455],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9ac8793cccdc4feaa39768abcbc47fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39df7e42d3734065908554ae562b52d8 = $(`<div id="html_39df7e42d3734065908554ae562b52d8" style="width: 100.0%; height: 100.0%;">УИК №211 Амосов-19.43% Беглов-60.39% Тихонова-18.54%</div>`)[0];
+            popup_9ac8793cccdc4feaa39768abcbc47fc5.setContent(html_39df7e42d3734065908554ae562b52d8);
+        
+
+        circle_01244a8d61b54c1881636aea9bbcbb54.bindPopup(popup_9ac8793cccdc4feaa39768abcbc47fc5)
+        ;
+
+        
+    
+    
+            var circle_c0acc911862b45019d7b731a68dd1ff4 = L.circle(
+                [60.044163, 30.354334],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_672879b404a54c1fa46a7e6308b7d745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08ffaf91a675437e82ef9694770e6951 = $(`<div id="html_08ffaf91a675437e82ef9694770e6951" style="width: 100.0%; height: 100.0%;">УИК №212 Амосов-15.65% Беглов-63.04% Тихонова-18.78%</div>`)[0];
+            popup_672879b404a54c1fa46a7e6308b7d745.setContent(html_08ffaf91a675437e82ef9694770e6951);
+        
+
+        circle_c0acc911862b45019d7b731a68dd1ff4.bindPopup(popup_672879b404a54c1fa46a7e6308b7d745)
+        ;
+
+        
+    
+    
+            var circle_2c90c8813b9e4b18a4cb9492d2a904e3 = L.circle(
+                [60.044163, 30.354334],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_3617780f74924fd583448a843e39fd54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38ccae41235f4b6d8c87c6e2aa47af7e = $(`<div id="html_38ccae41235f4b6d8c87c6e2aa47af7e" style="width: 100.0%; height: 100.0%;">УИК №213 Амосов-17.29% Беглов-66.14% Тихонова-14.57%</div>`)[0];
+            popup_3617780f74924fd583448a843e39fd54.setContent(html_38ccae41235f4b6d8c87c6e2aa47af7e);
+        
+
+        circle_2c90c8813b9e4b18a4cb9492d2a904e3.bindPopup(popup_3617780f74924fd583448a843e39fd54)
+        ;
+
+        
+    
+    
+            var circle_b4e04c72d7d44181aa1c96eccad1ec29 = L.circle(
+                [60.044163, 30.354334],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a5e9bec2c7764c028ba0f0c9d755fa24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb5046a2a1664173a78d49a0b6312b2a = $(`<div id="html_fb5046a2a1664173a78d49a0b6312b2a" style="width: 100.0%; height: 100.0%;">УИК №214 Амосов-14.62% Беглов-67.1% Тихонова-16.97%</div>`)[0];
+            popup_a5e9bec2c7764c028ba0f0c9d755fa24.setContent(html_fb5046a2a1664173a78d49a0b6312b2a);
+        
+
+        circle_b4e04c72d7d44181aa1c96eccad1ec29.bindPopup(popup_a5e9bec2c7764c028ba0f0c9d755fa24)
+        ;
+
+        
+    
+    
+            var circle_a8aeb5194ed9481097e5b398f0140b6e = L.circle(
+                [60.040362, 30.354181],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f55f6c89b57c411485ce54f1b1a4c208 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6021f25b5f841ec8f78070315714403 = $(`<div id="html_f6021f25b5f841ec8f78070315714403" style="width: 100.0%; height: 100.0%;">УИК №215 Амосов-19.16% Беглов-58.23% Тихонова-19.16%</div>`)[0];
+            popup_f55f6c89b57c411485ce54f1b1a4c208.setContent(html_f6021f25b5f841ec8f78070315714403);
+        
+
+        circle_a8aeb5194ed9481097e5b398f0140b6e.bindPopup(popup_f55f6c89b57c411485ce54f1b1a4c208)
+        ;
+
+        
+    
+    
+            var circle_a9934c7e127b40ac84921f3cc073d8d1 = L.circle(
+                [60.040362, 30.354181],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5d401ddd1de444e9aed122c7f2e0611e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_831082d1ad9744bfad9b034573474da0 = $(`<div id="html_831082d1ad9744bfad9b034573474da0" style="width: 100.0%; height: 100.0%;">УИК №216 Амосов-15.5% Беглов-67.33% Тихонова-13.83%</div>`)[0];
+            popup_5d401ddd1de444e9aed122c7f2e0611e.setContent(html_831082d1ad9744bfad9b034573474da0);
+        
+
+        circle_a9934c7e127b40ac84921f3cc073d8d1.bindPopup(popup_5d401ddd1de444e9aed122c7f2e0611e)
+        ;
+
+        
+    
+    
+            var circle_6e26e543fe104a97b0fb11c1bfda13b7 = L.circle(
+                [60.040362, 30.354181],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_cfa1cfdfa10e4ca48fe3d4e04b0b1a37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dd9c195ec32406f97c8d30861d2099a = $(`<div id="html_5dd9c195ec32406f97c8d30861d2099a" style="width: 100.0%; height: 100.0%;">УИК №217 Амосов-13.48% Беглов-63.08% Тихонова-21.67%</div>`)[0];
+            popup_cfa1cfdfa10e4ca48fe3d4e04b0b1a37.setContent(html_5dd9c195ec32406f97c8d30861d2099a);
+        
+
+        circle_6e26e543fe104a97b0fb11c1bfda13b7.bindPopup(popup_cfa1cfdfa10e4ca48fe3d4e04b0b1a37)
+        ;
+
+        
+    
+    
+            var circle_8bf788448dc94104a5a3b5222e45c417 = L.circle(
+                [60.040451, 30.365455],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2212af52c3114e6b8a377c9950410e8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53f71ddb293147e1a874eb130bfb6385 = $(`<div id="html_53f71ddb293147e1a874eb130bfb6385" style="width: 100.0%; height: 100.0%;">УИК №218 Амосов-14.94% Беглов-62.36% Тихонова-18.82%</div>`)[0];
+            popup_2212af52c3114e6b8a377c9950410e8b.setContent(html_53f71ddb293147e1a874eb130bfb6385);
+        
+
+        circle_8bf788448dc94104a5a3b5222e45c417.bindPopup(popup_2212af52c3114e6b8a377c9950410e8b)
+        ;
+
+        
+    
+    
+            var circle_6e2a904f022c4485bf3df2f58d887aa3 = L.circle(
+                [60.040451, 30.365455],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e67c3148f8cd4eb393ccf942c553d4f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c137bc8ea96b482583297401a813a78a = $(`<div id="html_c137bc8ea96b482583297401a813a78a" style="width: 100.0%; height: 100.0%;">УИК №219 Амосов-21.5% Беглов-59.07% Тихонова-15.14%</div>`)[0];
+            popup_e67c3148f8cd4eb393ccf942c553d4f0.setContent(html_c137bc8ea96b482583297401a813a78a);
+        
+
+        circle_6e2a904f022c4485bf3df2f58d887aa3.bindPopup(popup_e67c3148f8cd4eb393ccf942c553d4f0)
+        ;
+
+        
+    
+    
+            var circle_d91821e7bc0049fca2000711c66ea4bf = L.circle(
+                [60.040451, 30.365455],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_815c55cdaf1745a9914382ec5fc8472d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceaa04e0f9ef4f51b2af41c5a1b84982 = $(`<div id="html_ceaa04e0f9ef4f51b2af41c5a1b84982" style="width: 100.0%; height: 100.0%;">УИК №220 Амосов-16.46% Беглов-61.13% Тихонова-21.16%</div>`)[0];
+            popup_815c55cdaf1745a9914382ec5fc8472d.setContent(html_ceaa04e0f9ef4f51b2af41c5a1b84982);
+        
+
+        circle_d91821e7bc0049fca2000711c66ea4bf.bindPopup(popup_815c55cdaf1745a9914382ec5fc8472d)
+        ;
+
+        
+    
+    
+            var circle_c767c7c65afc42cd9c55ba2311204840 = L.circle(
+                [60.053804, 30.341551],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_eaa54e2d560a47a893f9c6841d43e816 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16fb402e48644539ac647e5340974c81 = $(`<div id="html_16fb402e48644539ac647e5340974c81" style="width: 100.0%; height: 100.0%;">УИК №221 Амосов-10.25% Беглов-74.72% Тихонова-12.76%</div>`)[0];
+            popup_eaa54e2d560a47a893f9c6841d43e816.setContent(html_16fb402e48644539ac647e5340974c81);
+        
+
+        circle_c767c7c65afc42cd9c55ba2311204840.bindPopup(popup_eaa54e2d560a47a893f9c6841d43e816)
+        ;
+
+        
+    
+    
+            var circle_0af04e06e6d34a4f9006649f285cf32e = L.circle(
+                [60.055017, 30.342216],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_dffd3a78c6f54ddbbca3a0d31899ee5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c51e100231a14cb7b43c2086b0b120d9 = $(`<div id="html_c51e100231a14cb7b43c2086b0b120d9" style="width: 100.0%; height: 100.0%;">УИК №222 Амосов-17.34% Беглов-62.63% Тихонова-14.35%</div>`)[0];
+            popup_dffd3a78c6f54ddbbca3a0d31899ee5f.setContent(html_c51e100231a14cb7b43c2086b0b120d9);
+        
+
+        circle_0af04e06e6d34a4f9006649f285cf32e.bindPopup(popup_dffd3a78c6f54ddbbca3a0d31899ee5f)
+        ;
+
+        
+    
+    
+            var circle_a09ba68acaf84b3abced187f5ef7ff50 = L.circle(
+                [60.053804, 30.341551],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_cf6f1ad1d64a4c70b9347af32a9b7491 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f485cda325aa4f0a95f1fcdc932ee01c = $(`<div id="html_f485cda325aa4f0a95f1fcdc932ee01c" style="width: 100.0%; height: 100.0%;">УИК №223 Амосов-9.46% Беглов-79.52% Тихонова-9.75%</div>`)[0];
+            popup_cf6f1ad1d64a4c70b9347af32a9b7491.setContent(html_f485cda325aa4f0a95f1fcdc932ee01c);
+        
+
+        circle_a09ba68acaf84b3abced187f5ef7ff50.bindPopup(popup_cf6f1ad1d64a4c70b9347af32a9b7491)
+        ;
+
+        
+    
+    
+            var circle_da6ed4dcbc984e8eaf4451982d399a6b = L.circle(
+                [60.053804, 30.341551],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4bc8e7bf81d04439a974ebce386de65f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3300f683fa4549a6bd9e60165bbabce0 = $(`<div id="html_3300f683fa4549a6bd9e60165bbabce0" style="width: 100.0%; height: 100.0%;">УИК №224 Амосов-18.4% Беглов-66.08% Тихонова-12.86%</div>`)[0];
+            popup_4bc8e7bf81d04439a974ebce386de65f.setContent(html_3300f683fa4549a6bd9e60165bbabce0);
+        
+
+        circle_da6ed4dcbc984e8eaf4451982d399a6b.bindPopup(popup_4bc8e7bf81d04439a974ebce386de65f)
+        ;
+
+        
+    
+    
+            var circle_2b2baa86e8ad49079438b494cb2d960b = L.circle(
+                [60.053804, 30.341551],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_69b235fdff9f4b2fa0c199ec9e7861c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f19cda9934b4e698273888341521771 = $(`<div id="html_8f19cda9934b4e698273888341521771" style="width: 100.0%; height: 100.0%;">УИК №225 Амосов-15.95% Беглов-67.21% Тихонова-14.75%</div>`)[0];
+            popup_69b235fdff9f4b2fa0c199ec9e7861c1.setContent(html_8f19cda9934b4e698273888341521771);
+        
+
+        circle_2b2baa86e8ad49079438b494cb2d960b.bindPopup(popup_69b235fdff9f4b2fa0c199ec9e7861c1)
+        ;
+
+        
+    
+    
+            var circle_9dc22502669148079ce676ab66b3c645 = L.circle(
+                [60.055017, 30.342216],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4113e595cb3f42848ea0c92fab359882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b600f84efc34d7ab757d933fddcfc79 = $(`<div id="html_6b600f84efc34d7ab757d933fddcfc79" style="width: 100.0%; height: 100.0%;">УИК №226 Амосов-14.76% Беглов-64.32% Тихонова-18.1%</div>`)[0];
+            popup_4113e595cb3f42848ea0c92fab359882.setContent(html_6b600f84efc34d7ab757d933fddcfc79);
+        
+
+        circle_9dc22502669148079ce676ab66b3c645.bindPopup(popup_4113e595cb3f42848ea0c92fab359882)
+        ;
+
+        
+    
+    
+            var circle_4ec4d7a52e43416db5fa269daf2d7ff7 = L.circle(
+                [60.054383, 30.355107],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_7ab3328ff4a14544afd3609410dc490b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_def224b39265401fa73a8aeed2f9a2e3 = $(`<div id="html_def224b39265401fa73a8aeed2f9a2e3" style="width: 100.0%; height: 100.0%;">УИК №227 Амосов-13.65% Беглов-66.04% Тихонова-17.92%</div>`)[0];
+            popup_7ab3328ff4a14544afd3609410dc490b.setContent(html_def224b39265401fa73a8aeed2f9a2e3);
+        
+
+        circle_4ec4d7a52e43416db5fa269daf2d7ff7.bindPopup(popup_7ab3328ff4a14544afd3609410dc490b)
+        ;
+
+        
+    
+    
+            var circle_5e69549b1854493cbd96a4fa0fe06d93 = L.circle(
+                [60.054383, 30.355107],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ecda15d09a2445168759b3ad7eea4ced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5ab99227b1842b19115e00fae99848c = $(`<div id="html_a5ab99227b1842b19115e00fae99848c" style="width: 100.0%; height: 100.0%;">УИК №228 Амосов-17.59% Беглов-66.72% Тихонова-14.66%</div>`)[0];
+            popup_ecda15d09a2445168759b3ad7eea4ced.setContent(html_a5ab99227b1842b19115e00fae99848c);
+        
+
+        circle_5e69549b1854493cbd96a4fa0fe06d93.bindPopup(popup_ecda15d09a2445168759b3ad7eea4ced)
+        ;
+
+        
+    
+    
+            var circle_b674f22600ce4c29aec7d14c8747eaec = L.circle(
+                [60.051243, 30.351522],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_799ba4d70aff4e7d81cc644db733aa15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7377acab74bc472f9c836075fff1ef61 = $(`<div id="html_7377acab74bc472f9c836075fff1ef61" style="width: 100.0%; height: 100.0%;">УИК №229 Амосов-3.99% Беглов-89.84% Тихонова-5.23%</div>`)[0];
+            popup_799ba4d70aff4e7d81cc644db733aa15.setContent(html_7377acab74bc472f9c836075fff1ef61);
+        
+
+        circle_b674f22600ce4c29aec7d14c8747eaec.bindPopup(popup_799ba4d70aff4e7d81cc644db733aa15)
+        ;
+
+        
+    
+    
+            var circle_1014a172403b403284bcf3a8bc05a15a = L.circle(
+                [60.051243, 30.351522],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5a8131c80b1341a38e7e9c772c48992d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1c1dd9d4958492bb07cec7ff125a1f4 = $(`<div id="html_f1c1dd9d4958492bb07cec7ff125a1f4" style="width: 100.0%; height: 100.0%;">УИК №230 Амосов-12.07% Беглов-66.8% Тихонова-17.51%</div>`)[0];
+            popup_5a8131c80b1341a38e7e9c772c48992d.setContent(html_f1c1dd9d4958492bb07cec7ff125a1f4);
+        
+
+        circle_1014a172403b403284bcf3a8bc05a15a.bindPopup(popup_5a8131c80b1341a38e7e9c772c48992d)
+        ;
+
+        
+    
+    
+            var circle_93396ca1f581462ea65a4cec1c0d90ef = L.circle(
+                [60.051243, 30.351522],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_88a022d04c864da1b74fdf81c75049a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_436ba827b9564192ba730180f0df63ba = $(`<div id="html_436ba827b9564192ba730180f0df63ba" style="width: 100.0%; height: 100.0%;">УИК №231 Амосов-20.71% Беглов-61.75% Тихонова-15.49%</div>`)[0];
+            popup_88a022d04c864da1b74fdf81c75049a1.setContent(html_436ba827b9564192ba730180f0df63ba);
+        
+
+        circle_93396ca1f581462ea65a4cec1c0d90ef.bindPopup(popup_88a022d04c864da1b74fdf81c75049a1)
+        ;
+
+        
+    
+    
+            var circle_4f46224d4cb847518796780c37d7023b = L.circle(
+                [60.046706, 30.349124],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_7af82fe1f12a466181d0d9e6b25c59a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40be7e816f744c4ad47ab33ed13b0ad = $(`<div id="html_c40be7e816f744c4ad47ab33ed13b0ad" style="width: 100.0%; height: 100.0%;">УИК №232 Амосов-5.84% Беглов-90.99% Тихонова-3.17%</div>`)[0];
+            popup_7af82fe1f12a466181d0d9e6b25c59a6.setContent(html_c40be7e816f744c4ad47ab33ed13b0ad);
+        
+
+        circle_4f46224d4cb847518796780c37d7023b.bindPopup(popup_7af82fe1f12a466181d0d9e6b25c59a6)
+        ;
+
+        
+    
+    
+            var circle_8aeec68bf92142e69c2adee51170d11b = L.circle(
+                [60.046706, 30.349124],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_826119412a604746a2ea3b83f395ab79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f36b742a243c4d57922dfd34f4a95917 = $(`<div id="html_f36b742a243c4d57922dfd34f4a95917" style="width: 100.0%; height: 100.0%;">УИК №233 Амосов-15.88% Беглов-65.64% Тихонова-16.21%</div>`)[0];
+            popup_826119412a604746a2ea3b83f395ab79.setContent(html_f36b742a243c4d57922dfd34f4a95917);
+        
+
+        circle_8aeec68bf92142e69c2adee51170d11b.bindPopup(popup_826119412a604746a2ea3b83f395ab79)
+        ;
+
+        
+    
+    
+            var circle_e0a4c327ae044e41952395ff4d0051a9 = L.circle(
+                [60.046706, 30.349124],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2be2d98f8f4445dcaabee276e958a89d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c555193b0ab4df4bf07a2a1b619988c = $(`<div id="html_4c555193b0ab4df4bf07a2a1b619988c" style="width: 100.0%; height: 100.0%;">УИК №234 Амосов-10.92% Беглов-71.97% Тихонова-15.53%</div>`)[0];
+            popup_2be2d98f8f4445dcaabee276e958a89d.setContent(html_4c555193b0ab4df4bf07a2a1b619988c);
+        
+
+        circle_e0a4c327ae044e41952395ff4d0051a9.bindPopup(popup_2be2d98f8f4445dcaabee276e958a89d)
+        ;
+
+        
+    
+    
+            var circle_ddfd99b2373240b0870f64009c79d054 = L.circle(
+                [60.043458, 30.341272],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d7e498bea6c34471b81fb4e177337668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_691a96ef4db144dea537883ed952b186 = $(`<div id="html_691a96ef4db144dea537883ed952b186" style="width: 100.0%; height: 100.0%;">УИК №235 Амосов-13.82% Беглов-67.03% Тихонова-16.01%</div>`)[0];
+            popup_d7e498bea6c34471b81fb4e177337668.setContent(html_691a96ef4db144dea537883ed952b186);
+        
+
+        circle_ddfd99b2373240b0870f64009c79d054.bindPopup(popup_d7e498bea6c34471b81fb4e177337668)
+        ;
+
+        
+    
+    
+            var circle_6cd63af5da6340c3978627c50ea28946 = L.circle(
+                [60.043458, 30.341272],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_1afece2d810e4fc8a45e0fd3ce9e44be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dad9dc2352a414398962ad4eafb2127 = $(`<div id="html_8dad9dc2352a414398962ad4eafb2127" style="width: 100.0%; height: 100.0%;">УИК №236 Амосов-8.06% Беглов-77.92% Тихонова-11.29%</div>`)[0];
+            popup_1afece2d810e4fc8a45e0fd3ce9e44be.setContent(html_8dad9dc2352a414398962ad4eafb2127);
+        
+
+        circle_6cd63af5da6340c3978627c50ea28946.bindPopup(popup_1afece2d810e4fc8a45e0fd3ce9e44be)
+        ;
+
+        
+    
+    
+            var circle_8d9c67fd87e24608b0beab0f647c2274 = L.circle(
+                [60.042842, 30.343797],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_71c431f62af14d5fb51871ab9a4bcc37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1a587f02b064dc5aca7c9e75a349c4b = $(`<div id="html_a1a587f02b064dc5aca7c9e75a349c4b" style="width: 100.0%; height: 100.0%;">УИК №237 Амосов-15.15% Беглов-65.42% Тихонова-14.8%</div>`)[0];
+            popup_71c431f62af14d5fb51871ab9a4bcc37.setContent(html_a1a587f02b064dc5aca7c9e75a349c4b);
+        
+
+        circle_8d9c67fd87e24608b0beab0f647c2274.bindPopup(popup_71c431f62af14d5fb51871ab9a4bcc37)
+        ;
+
+        
+    
+    
+            var circle_094e878e8a7f4b4bad54c6ef8d338005 = L.circle(
+                [60.042842, 30.343797],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9150e306bf2a49c1ada174f32c362357 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e3b7cd25a7f476f92630e3445d6e56e = $(`<div id="html_0e3b7cd25a7f476f92630e3445d6e56e" style="width: 100.0%; height: 100.0%;">УИК №238 Амосов-14.12% Беглов-68.17% Тихонова-16.2%</div>`)[0];
+            popup_9150e306bf2a49c1ada174f32c362357.setContent(html_0e3b7cd25a7f476f92630e3445d6e56e);
+        
+
+        circle_094e878e8a7f4b4bad54c6ef8d338005.bindPopup(popup_9150e306bf2a49c1ada174f32c362357)
+        ;
+
+        
+    
+    
+            var circle_ac3461b65b004b58bbbbcb157a79e174 = L.circle(
+                [60.042842, 30.343797],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f1f083bf68864a988f773e2fa0c0e35a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d9821edaa1b44d2985181f27a92d965 = $(`<div id="html_0d9821edaa1b44d2985181f27a92d965" style="width: 100.0%; height: 100.0%;">УИК №239 Амосов-13.44% Беглов-65.56% Тихонова-19.03%</div>`)[0];
+            popup_f1f083bf68864a988f773e2fa0c0e35a.setContent(html_0d9821edaa1b44d2985181f27a92d965);
+        
+
+        circle_ac3461b65b004b58bbbbcb157a79e174.bindPopup(popup_f1f083bf68864a988f773e2fa0c0e35a)
+        ;
+
+        
+    
+    
+            var circle_41e9a553bca7445c81e445197ceb073e = L.circle(
+                [60.047492, 30.336781],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_65f3cb51afd240ffbcf73f0ab358fc54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01ebe0459daa4912a8ba05dcdc937ce0 = $(`<div id="html_01ebe0459daa4912a8ba05dcdc937ce0" style="width: 100.0%; height: 100.0%;">УИК №240 Амосов-8.97% Беглов-81.03% Тихонова-7.44%</div>`)[0];
+            popup_65f3cb51afd240ffbcf73f0ab358fc54.setContent(html_01ebe0459daa4912a8ba05dcdc937ce0);
+        
+
+        circle_41e9a553bca7445c81e445197ceb073e.bindPopup(popup_65f3cb51afd240ffbcf73f0ab358fc54)
+        ;
+
+        
+    
+    
+            var circle_e5f5d55f099b436f9b437a437b58fa45 = L.circle(
+                [60.047492, 30.336781],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5a1b490ac7d54b38be99a6a799959fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ceaa4b29038430db282a01141e06953 = $(`<div id="html_8ceaa4b29038430db282a01141e06953" style="width: 100.0%; height: 100.0%;">УИК №241 Амосов-20.78% Беглов-56.7% Тихонова-19.22%</div>`)[0];
+            popup_5a1b490ac7d54b38be99a6a799959fe0.setContent(html_8ceaa4b29038430db282a01141e06953);
+        
+
+        circle_e5f5d55f099b436f9b437a437b58fa45.bindPopup(popup_5a1b490ac7d54b38be99a6a799959fe0)
+        ;
+
+        
+    
+    
+            var circle_f0b53ae3384d46db817deb167b771b11 = L.circle(
+                [60.047492, 30.336781],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5f33cbc43b4a41dfa303d78c86da63bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64efce2dd8244c71bae0346144b75511 = $(`<div id="html_64efce2dd8244c71bae0346144b75511" style="width: 100.0%; height: 100.0%;">УИК №242 Амосов-16.11% Беглов-65.5% Тихонова-14.89%</div>`)[0];
+            popup_5f33cbc43b4a41dfa303d78c86da63bb.setContent(html_64efce2dd8244c71bae0346144b75511);
+        
+
+        circle_f0b53ae3384d46db817deb167b771b11.bindPopup(popup_5f33cbc43b4a41dfa303d78c86da63bb)
+        ;
+
+        
+    
+    
+            var circle_10e8c6a2d8f6478ba962f2f656673ebe = L.circle(
+                [60.046495, 30.335281],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_1320dfdbab124bb98ba3b016fd073a5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cf3302465544dde84ead4968d30bc76 = $(`<div id="html_1cf3302465544dde84ead4968d30bc76" style="width: 100.0%; height: 100.0%;">УИК №243 Амосов-16.8% Беглов-64.42% Тихонова-16.14%</div>`)[0];
+            popup_1320dfdbab124bb98ba3b016fd073a5b.setContent(html_1cf3302465544dde84ead4968d30bc76);
+        
+
+        circle_10e8c6a2d8f6478ba962f2f656673ebe.bindPopup(popup_1320dfdbab124bb98ba3b016fd073a5b)
+        ;
+
+        
+    
+    
+            var circle_77ebe3fedb4a43d2b023a367c4dfd653 = L.circle(
+                [60.046495, 30.335281],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_3b912b28344746ed955cf63b65ff9f12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70af74bbf60f430298518c4b62e9d16b = $(`<div id="html_70af74bbf60f430298518c4b62e9d16b" style="width: 100.0%; height: 100.0%;">УИК №244 Амосов-17.03% Беглов-65.61% Тихонова-15.86%</div>`)[0];
+            popup_3b912b28344746ed955cf63b65ff9f12.setContent(html_70af74bbf60f430298518c4b62e9d16b);
+        
+
+        circle_77ebe3fedb4a43d2b023a367c4dfd653.bindPopup(popup_3b912b28344746ed955cf63b65ff9f12)
+        ;
+
+        
+    
+    
+            var circle_cf879f5958aa4008999e43d4fe93813c = L.circle(
+                [60.0425, 30.3202],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ada02d51f2b54d598e78fb76f5816529 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ead18a90308845f896383b44daa578f6 = $(`<div id="html_ead18a90308845f896383b44daa578f6" style="width: 100.0%; height: 100.0%;">УИК №252 Амосов-27.49% Беглов-50.07% Тихонова-19.76%</div>`)[0];
+            popup_ada02d51f2b54d598e78fb76f5816529.setContent(html_ead18a90308845f896383b44daa578f6);
+        
+
+        circle_cf879f5958aa4008999e43d4fe93813c.bindPopup(popup_ada02d51f2b54d598e78fb76f5816529)
+        ;
+
+        
+    
+    
+            var circle_4d160a68f86c4660ad47a694a5d1c523 = L.circle(
+                [60.0425, 30.3202],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9c1bcd2e952946d1b73be0fc880a831c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f385193a87324f868d425c3b190b012d = $(`<div id="html_f385193a87324f868d425c3b190b012d" style="width: 100.0%; height: 100.0%;">УИК №253 Амосов-23.56% Беглов-54.6% Тихонова-18.1%</div>`)[0];
+            popup_9c1bcd2e952946d1b73be0fc880a831c.setContent(html_f385193a87324f868d425c3b190b012d);
+        
+
+        circle_4d160a68f86c4660ad47a694a5d1c523.bindPopup(popup_9c1bcd2e952946d1b73be0fc880a831c)
+        ;
+
+        
+    
+    
+            var circle_78920158a82c45df90425d6bec98929f = L.circle(
+                [60.0425, 30.3202],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_3481511404fa46cbad71074280064399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5449133465741f5ad3e422e1ed6bc78 = $(`<div id="html_a5449133465741f5ad3e422e1ed6bc78" style="width: 100.0%; height: 100.0%;">УИК №254 Амосов-20.72% Беглов-57.29% Тихонова-19.03%</div>`)[0];
+            popup_3481511404fa46cbad71074280064399.setContent(html_a5449133465741f5ad3e422e1ed6bc78);
+        
+
+        circle_78920158a82c45df90425d6bec98929f.bindPopup(popup_3481511404fa46cbad71074280064399)
+        ;
+
+        
+    
+    
+            var circle_d76ad5b2e6384671bfb40cbc8c644c29 = L.circle(
+                [60.046562, 30.325044],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_86ceaf6bf5894eeb866b69cde39bfee7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc8f3b0165c94489a683549e335df921 = $(`<div id="html_cc8f3b0165c94489a683549e335df921" style="width: 100.0%; height: 100.0%;">УИК №255 Амосов-20.76% Беглов-55.4% Тихонова-21.32%</div>`)[0];
+            popup_86ceaf6bf5894eeb866b69cde39bfee7.setContent(html_cc8f3b0165c94489a683549e335df921);
+        
+
+        circle_d76ad5b2e6384671bfb40cbc8c644c29.bindPopup(popup_86ceaf6bf5894eeb866b69cde39bfee7)
+        ;
+
+        
+    
+    
+            var circle_d6ba260a4bca4591bd26d72273a8e20a = L.circle(
+                [60.046562, 30.325044],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_58f2a0a338d24bd6b5cac3052a79052b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd9e9cfee1eb496796572104abe3dbef = $(`<div id="html_bd9e9cfee1eb496796572104abe3dbef" style="width: 100.0%; height: 100.0%;">УИК №256 Амосов-21.45% Беглов-54.84% Тихонова-20.65%</div>`)[0];
+            popup_58f2a0a338d24bd6b5cac3052a79052b.setContent(html_bd9e9cfee1eb496796572104abe3dbef);
+        
+
+        circle_d6ba260a4bca4591bd26d72273a8e20a.bindPopup(popup_58f2a0a338d24bd6b5cac3052a79052b)
+        ;
+
+        
+    
+    
+            var circle_9faf630da2e549a8b57ea62444780795 = L.circle(
+                [60.046562, 30.325044],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5af68c29bbaa4a5cbece01ed77f74d98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f96e239adf3d4c31acf60087ebe9b42a = $(`<div id="html_f96e239adf3d4c31acf60087ebe9b42a" style="width: 100.0%; height: 100.0%;">УИК №257 Амосов-23.47% Беглов-51.1% Тихонова-22.74%</div>`)[0];
+            popup_5af68c29bbaa4a5cbece01ed77f74d98.setContent(html_f96e239adf3d4c31acf60087ebe9b42a);
+        
+
+        circle_9faf630da2e549a8b57ea62444780795.bindPopup(popup_5af68c29bbaa4a5cbece01ed77f74d98)
+        ;
+
+        
+    
+    
+            var circle_f2dc9b0e905849a488968805dcfff78b = L.circle(
+                [60.049562, 30.324433],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_53ce5f1083ed44e4a08a30df073e49ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5983f44ce9d84444aa4b8c1aea241458 = $(`<div id="html_5983f44ce9d84444aa4b8c1aea241458" style="width: 100.0%; height: 100.0%;">УИК №258 Амосов-22.81% Беглов-61.13% Тихонова-13.77%</div>`)[0];
+            popup_53ce5f1083ed44e4a08a30df073e49ad.setContent(html_5983f44ce9d84444aa4b8c1aea241458);
+        
+
+        circle_f2dc9b0e905849a488968805dcfff78b.bindPopup(popup_53ce5f1083ed44e4a08a30df073e49ad)
+        ;
+
+        
+    
+    
+            var circle_026646807b264e1c8227c090db79e17c = L.circle(
+                [60.049562, 30.324433],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ba2f4356a849449ebeca1939a4c1915b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea0f356d33244d5c8693027690995a30 = $(`<div id="html_ea0f356d33244d5c8693027690995a30" style="width: 100.0%; height: 100.0%;">УИК №259 Амосов-22.27% Беглов-55.15% Тихонова-18.48%</div>`)[0];
+            popup_ba2f4356a849449ebeca1939a4c1915b.setContent(html_ea0f356d33244d5c8693027690995a30);
+        
+
+        circle_026646807b264e1c8227c090db79e17c.bindPopup(popup_ba2f4356a849449ebeca1939a4c1915b)
+        ;
+
+        
+    
+    
+            var circle_ddfd551c23fc46c7985efc4435126979 = L.circle(
+                [60.046562, 30.325044],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d5367daf1c0643278da6b389c698437c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b3b3d546334162929eed6a1024ef0a = $(`<div id="html_79b3b3d546334162929eed6a1024ef0a" style="width: 100.0%; height: 100.0%;">УИК №260 Амосов-14.43% Беглов-63.28% Тихонова-19.34%</div>`)[0];
+            popup_d5367daf1c0643278da6b389c698437c.setContent(html_79b3b3d546334162929eed6a1024ef0a);
+        
+
+        circle_ddfd551c23fc46c7985efc4435126979.bindPopup(popup_d5367daf1c0643278da6b389c698437c)
+        ;
+
+        
+    
+    
+            var circle_7a59dac5169e4b2d88c204b8498d47c9 = L.circle(
+                [60.046562, 30.325044],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_aa153727f5da488584840f1bfc94164e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e810073cbf743c9aa44942863f43cb5 = $(`<div id="html_0e810073cbf743c9aa44942863f43cb5" style="width: 100.0%; height: 100.0%;">УИК №261 Амосов-18.38% Беглов-57.22% Тихонова-19.59%</div>`)[0];
+            popup_aa153727f5da488584840f1bfc94164e.setContent(html_0e810073cbf743c9aa44942863f43cb5);
+        
+
+        circle_7a59dac5169e4b2d88c204b8498d47c9.bindPopup(popup_aa153727f5da488584840f1bfc94164e)
+        ;
+
+        
+    
+    
+            var circle_dedac01039504e00be00dff6996dbb63 = L.circle(
+                [60.049562, 30.324433],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_77c83ada01a540b8a649aa7a57c2b7b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b27b7d493a1c4f6a9496d950a2fb5282 = $(`<div id="html_b27b7d493a1c4f6a9496d950a2fb5282" style="width: 100.0%; height: 100.0%;">УИК №262 Амосов-17.24% Беглов-56.55% Тихонова-23.45%</div>`)[0];
+            popup_77c83ada01a540b8a649aa7a57c2b7b6.setContent(html_b27b7d493a1c4f6a9496d950a2fb5282);
+        
+
+        circle_dedac01039504e00be00dff6996dbb63.bindPopup(popup_77c83ada01a540b8a649aa7a57c2b7b6)
+        ;
+
+        
+    
+    
+            var circle_9f0918da516844f8986018f8eb29993d = L.circle(
+                [60.049562, 30.324433],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b2bbd75d1e424abaab8a3542268f205f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7323c77953ab431cb3f32c6111da790d = $(`<div id="html_7323c77953ab431cb3f32c6111da790d" style="width: 100.0%; height: 100.0%;">УИК №263 Амосов-17.95% Беглов-60.16% Тихонова-18.74%</div>`)[0];
+            popup_b2bbd75d1e424abaab8a3542268f205f.setContent(html_7323c77953ab431cb3f32c6111da790d);
+        
+
+        circle_9f0918da516844f8986018f8eb29993d.bindPopup(popup_b2bbd75d1e424abaab8a3542268f205f)
+        ;
+
+        
+    
+    
+            var circle_a28e2bc1f598490bbb9be8a1e13eb2b7 = L.circle(
+                [60.053806, 30.31844],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_842ac668dc33410ab3bf6425b3c722b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cc5c5016c5c42d189e9232a15428f5b = $(`<div id="html_7cc5c5016c5c42d189e9232a15428f5b" style="width: 100.0%; height: 100.0%;">УИК №264 Амосов-16.89% Беглов-60.49% Тихонова-18.36%</div>`)[0];
+            popup_842ac668dc33410ab3bf6425b3c722b6.setContent(html_7cc5c5016c5c42d189e9232a15428f5b);
+        
+
+        circle_a28e2bc1f598490bbb9be8a1e13eb2b7.bindPopup(popup_842ac668dc33410ab3bf6425b3c722b6)
+        ;
+
+        
+    
+    
+            var circle_9717fe3cbc2d4b88b9fb8b5641febcb8 = L.circle(
+                [60.053806, 30.31844],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d32b7dc5567644598b39647a811f6e99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5f0953b5c4c40b28ea6dafb1f4dfd52 = $(`<div id="html_f5f0953b5c4c40b28ea6dafb1f4dfd52" style="width: 100.0%; height: 100.0%;">УИК №265 Амосов-20.55% Беглов-54.95% Тихонова-21.31%</div>`)[0];
+            popup_d32b7dc5567644598b39647a811f6e99.setContent(html_f5f0953b5c4c40b28ea6dafb1f4dfd52);
+        
+
+        circle_9717fe3cbc2d4b88b9fb8b5641febcb8.bindPopup(popup_d32b7dc5567644598b39647a811f6e99)
+        ;
+
+        
+    
+    
+            var circle_389292aa67b84ca38c182927d0ae5f4a = L.circle(
+                [60.053806, 30.31844],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b6b61d03ed93413aa66c342e052ef0d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_127ecf63060e4c0a8edd4ef7ba19a4c4 = $(`<div id="html_127ecf63060e4c0a8edd4ef7ba19a4c4" style="width: 100.0%; height: 100.0%;">УИК №266 Амосов-19.58% Беглов-57.78% Тихонова-19.72%</div>`)[0];
+            popup_b6b61d03ed93413aa66c342e052ef0d2.setContent(html_127ecf63060e4c0a8edd4ef7ba19a4c4);
+        
+
+        circle_389292aa67b84ca38c182927d0ae5f4a.bindPopup(popup_b6b61d03ed93413aa66c342e052ef0d2)
+        ;
+
+        
+    
+    
+            var circle_f24fbd54effe4b7d86b6c44b4d706955 = L.circle(
+                [60.053806, 30.31844],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e8e586862f794b49aebea205ab0fe046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba596ed7da414ef6839f222efceb1259 = $(`<div id="html_ba596ed7da414ef6839f222efceb1259" style="width: 100.0%; height: 100.0%;">УИК №267 Амосов-19.61% Беглов-64.92% Тихонова-12.71%</div>`)[0];
+            popup_e8e586862f794b49aebea205ab0fe046.setContent(html_ba596ed7da414ef6839f222efceb1259);
+        
+
+        circle_f24fbd54effe4b7d86b6c44b4d706955.bindPopup(popup_e8e586862f794b49aebea205ab0fe046)
+        ;
+
+        
+    
+    
+            var circle_2a5b34dc481e4b978dd0efce1976c82a = L.circle(
+                [60.059263, 30.322838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ff66286bdd1a40b99b8d17fdceb02aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d16a2dfc5fd4174ba1c611c7cf9958d = $(`<div id="html_1d16a2dfc5fd4174ba1c611c7cf9958d" style="width: 100.0%; height: 100.0%;">УИК №268 Амосов-25.69% Беглов-43.92% Тихонова-26.47%</div>`)[0];
+            popup_ff66286bdd1a40b99b8d17fdceb02aff.setContent(html_1d16a2dfc5fd4174ba1c611c7cf9958d);
+        
+
+        circle_2a5b34dc481e4b978dd0efce1976c82a.bindPopup(popup_ff66286bdd1a40b99b8d17fdceb02aff)
+        ;
+
+        
+    
+    
+            var circle_aeafb42f6bc14429a9efa853eec2a01a = L.circle(
+                [60.055971, 30.330165],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_69ccada03e98483caa789afcfcfe0224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_142b1af29602498e9e6772a981e33eef = $(`<div id="html_142b1af29602498e9e6772a981e33eef" style="width: 100.0%; height: 100.0%;">УИК №269 Амосов-22.48% Беглов-56.59% Тихонова-18.86%</div>`)[0];
+            popup_69ccada03e98483caa789afcfcfe0224.setContent(html_142b1af29602498e9e6772a981e33eef);
+        
+
+        circle_aeafb42f6bc14429a9efa853eec2a01a.bindPopup(popup_69ccada03e98483caa789afcfcfe0224)
+        ;
+
+        
+    
+    
+            var circle_74b5c98cc54e452580d1f79808482fe6 = L.circle(
+                [60.055971, 30.330165],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_13db396f531a43678844e58eb611e2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec5648aa268d4b668e2d8423232b431c = $(`<div id="html_ec5648aa268d4b668e2d8423232b431c" style="width: 100.0%; height: 100.0%;">УИК №270 Амосов-18.24% Беглов-66.56% Тихонова-13.44%</div>`)[0];
+            popup_13db396f531a43678844e58eb611e2f9.setContent(html_ec5648aa268d4b668e2d8423232b431c);
+        
+
+        circle_74b5c98cc54e452580d1f79808482fe6.bindPopup(popup_13db396f531a43678844e58eb611e2f9)
+        ;
+
+        
+    
+    
+            var circle_2aa3e68c163c44cc9fccd6159e73ad8a = L.circle(
+                [60.057004, 30.329095],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_991dbb9ff30144a7a42e17950822f245 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85d1e7d9a1cc4c5390061ea993af4981 = $(`<div id="html_85d1e7d9a1cc4c5390061ea993af4981" style="width: 100.0%; height: 100.0%;">УИК №271 Амосов-15.92% Беглов-62.63% Тихонова-19.32%</div>`)[0];
+            popup_991dbb9ff30144a7a42e17950822f245.setContent(html_85d1e7d9a1cc4c5390061ea993af4981);
+        
+
+        circle_2aa3e68c163c44cc9fccd6159e73ad8a.bindPopup(popup_991dbb9ff30144a7a42e17950822f245)
+        ;
+
+        
+    
+    
+            var circle_5d497e3652514b79b6e657ae4b981708 = L.circle(
+                [60.057004, 30.329095],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_009c66c65265439fb0acc5c53df1f706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81d171ae08d74450a764687f8b123ab8 = $(`<div id="html_81d171ae08d74450a764687f8b123ab8" style="width: 100.0%; height: 100.0%;">УИК №272 Амосов-19.46% Беглов-62.58% Тихонова-15.94%</div>`)[0];
+            popup_009c66c65265439fb0acc5c53df1f706.setContent(html_81d171ae08d74450a764687f8b123ab8);
+        
+
+        circle_5d497e3652514b79b6e657ae4b981708.bindPopup(popup_009c66c65265439fb0acc5c53df1f706)
+        ;
+
+        
+    
+    
+            var circle_11900fe87c014daca906763eb07dbccd = L.circle(
+                [60.055971, 30.330165],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a8231addf00e4bbba27e7afe524b1d2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d76c891239f4b869843597a120b5642 = $(`<div id="html_8d76c891239f4b869843597a120b5642" style="width: 100.0%; height: 100.0%;">УИК №273 Амосов-16.13% Беглов-63.29% Тихонова-17.51%</div>`)[0];
+            popup_a8231addf00e4bbba27e7afe524b1d2e.setContent(html_8d76c891239f4b869843597a120b5642);
+        
+
+        circle_11900fe87c014daca906763eb07dbccd.bindPopup(popup_a8231addf00e4bbba27e7afe524b1d2e)
+        ;
+
+        
+    
+    
+            var circle_d7c0dd03e10a4fb0abc02f32237689a9 = L.circle(
+                [60.059263, 30.322838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f09df2ab6af948e29449db3e777e865a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b00bd0e35d1f4ceca68edbd2f9500ffb = $(`<div id="html_b00bd0e35d1f4ceca68edbd2f9500ffb" style="width: 100.0%; height: 100.0%;">УИК №274 Амосов-14.29% Беглов-64.04% Тихонова-18.62%</div>`)[0];
+            popup_f09df2ab6af948e29449db3e777e865a.setContent(html_b00bd0e35d1f4ceca68edbd2f9500ffb);
+        
+
+        circle_d7c0dd03e10a4fb0abc02f32237689a9.bindPopup(popup_f09df2ab6af948e29449db3e777e865a)
+        ;
+
+        
+    
+    
+            var circle_065b970135f445fc8b6d48a5a99868aa = L.circle(
+                [60.059263, 30.322838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f91e711af48945c29f628451537e7c39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2717341711640c3b128ac677cf552c1 = $(`<div id="html_e2717341711640c3b128ac677cf552c1" style="width: 100.0%; height: 100.0%;">УИК №275 Амосов-15.93% Беглов-65.2% Тихонова-15.93%</div>`)[0];
+            popup_f91e711af48945c29f628451537e7c39.setContent(html_e2717341711640c3b128ac677cf552c1);
+        
+
+        circle_065b970135f445fc8b6d48a5a99868aa.bindPopup(popup_f91e711af48945c29f628451537e7c39)
+        ;
+
+        
+    
+    
+            var circle_3d36338cfd964210a5b8ebb2713d819d = L.circle(
+                [60.060235, 30.321814],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b0c4f434f71b41f48f7658276376125b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7881a81bc72d4bd1b7e79d25bf627567 = $(`<div id="html_7881a81bc72d4bd1b7e79d25bf627567" style="width: 100.0%; height: 100.0%;">УИК №276 Амосов-13.33% Беглов-66.67% Тихонова-17.78%</div>`)[0];
+            popup_b0c4f434f71b41f48f7658276376125b.setContent(html_7881a81bc72d4bd1b7e79d25bf627567);
+        
+
+        circle_3d36338cfd964210a5b8ebb2713d819d.bindPopup(popup_b0c4f434f71b41f48f7658276376125b)
+        ;
+
+        
+    
+    
+            var circle_76d564c7bbeb43b599bf571ed68c6de9 = L.circle(
+                [60.059263, 30.322838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_8f68de830cf44f4c9f7e712e1dd9cff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339e63bbba594fb9b0538a6e5d4ffaea = $(`<div id="html_339e63bbba594fb9b0538a6e5d4ffaea" style="width: 100.0%; height: 100.0%;">УИК №277 Амосов-17.88% Беглов-67.58% Тихонова-12.12%</div>`)[0];
+            popup_8f68de830cf44f4c9f7e712e1dd9cff9.setContent(html_339e63bbba594fb9b0538a6e5d4ffaea);
+        
+
+        circle_76d564c7bbeb43b599bf571ed68c6de9.bindPopup(popup_8f68de830cf44f4c9f7e712e1dd9cff9)
+        ;
+
+        
+    
+    
+            var circle_e77a27fba4834b54a44ad970f4e1ef93 = L.circle(
+                [60.060235, 30.321814],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_dddfa7ca57c042259bb316cf38181b9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7a4ea79d2af421d8be660c6c8bfa1ed = $(`<div id="html_a7a4ea79d2af421d8be660c6c8bfa1ed" style="width: 100.0%; height: 100.0%;">УИК №278 Амосов-14.88% Беглов-67.61% Тихонова-15.07%</div>`)[0];
+            popup_dddfa7ca57c042259bb316cf38181b9b.setContent(html_a7a4ea79d2af421d8be660c6c8bfa1ed);
+        
+
+        circle_e77a27fba4834b54a44ad970f4e1ef93.bindPopup(popup_dddfa7ca57c042259bb316cf38181b9b)
+        ;
+
+        
+    
+    
+            var circle_08618e8550d54773a32eb3da38f82afe = L.circle(
+                [60.060152, 30.314049],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f62194ee8286494cab934dbf19c4a877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e89204e088404e1b93457e004e89a009 = $(`<div id="html_e89204e088404e1b93457e004e89a009" style="width: 100.0%; height: 100.0%;">УИК №279 Амосов-17.27% Беглов-60.55% Тихонова-19.27%</div>`)[0];
+            popup_f62194ee8286494cab934dbf19c4a877.setContent(html_e89204e088404e1b93457e004e89a009);
+        
+
+        circle_08618e8550d54773a32eb3da38f82afe.bindPopup(popup_f62194ee8286494cab934dbf19c4a877)
+        ;
+
+        
+    
+    
+            var circle_be75b1f9fd184d64812351edd14ba2b1 = L.circle(
+                [60.060152, 30.314049],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a59727f43c25484eb39834beb08a816b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5ab72efff144e7da34d2f7a86fb7b69 = $(`<div id="html_f5ab72efff144e7da34d2f7a86fb7b69" style="width: 100.0%; height: 100.0%;">УИК №280 Амосов-15.48% Беглов-65.3% Тихонова-16.9%</div>`)[0];
+            popup_a59727f43c25484eb39834beb08a816b.setContent(html_f5ab72efff144e7da34d2f7a86fb7b69);
+        
+
+        circle_be75b1f9fd184d64812351edd14ba2b1.bindPopup(popup_a59727f43c25484eb39834beb08a816b)
+        ;
+
+        
+    
+    
+            var circle_65f0b66198624a7d92f791bcdcc48cef = L.circle(
+                [60.060152, 30.314049],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_31b4a416b0f947e5a05aeac41251fafb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0abc023fa1cc43b99d83d870620b77a2 = $(`<div id="html_0abc023fa1cc43b99d83d870620b77a2" style="width: 100.0%; height: 100.0%;">УИК №281 Амосов-18.23% Беглов-61.72% Тихонова-17.97%</div>`)[0];
+            popup_31b4a416b0f947e5a05aeac41251fafb.setContent(html_0abc023fa1cc43b99d83d870620b77a2);
+        
+
+        circle_65f0b66198624a7d92f791bcdcc48cef.bindPopup(popup_31b4a416b0f947e5a05aeac41251fafb)
+        ;
+
+        
+    
+    
+            var circle_62039b47c72f48fca523a2770cb59c30 = L.circle(
+                [60.060152, 30.314049],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_06ea9ddce78f4ce28e5f9ea9e707396f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd7902cdae054a1d8068dadc8368a9b6 = $(`<div id="html_fd7902cdae054a1d8068dadc8368a9b6" style="width: 100.0%; height: 100.0%;">УИК №282 Амосов-20.3% Беглов-57.01% Тихонова-20.45%</div>`)[0];
+            popup_06ea9ddce78f4ce28e5f9ea9e707396f.setContent(html_fd7902cdae054a1d8068dadc8368a9b6);
+        
+
+        circle_62039b47c72f48fca523a2770cb59c30.bindPopup(popup_06ea9ddce78f4ce28e5f9ea9e707396f)
+        ;
+
+        
+    
+    
+            var circle_6e72e42cdbd64cf48978e1d318b27fb2 = L.circle(
+                [60.060152, 30.314049],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b2ac92b430894726bf48da907affd21a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7d9f0c4f86b44fa855341c0a6391852 = $(`<div id="html_f7d9f0c4f86b44fa855341c0a6391852" style="width: 100.0%; height: 100.0%;">УИК №283 Амосов-13.59% Беглов-63.04% Тихонова-19.2%</div>`)[0];
+            popup_b2ac92b430894726bf48da907affd21a.setContent(html_f7d9f0c4f86b44fa855341c0a6391852);
+        
+
+        circle_6e72e42cdbd64cf48978e1d318b27fb2.bindPopup(popup_b2ac92b430894726bf48da907affd21a)
+        ;
+
+        
+    
+    
+            var circle_c9c45361d4e54858a0ca07f9df427064 = L.circle(
+                [60.064702, 30.308794],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b8866f6138c541db8075a9b17beb0533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35a2dde13ee94f82ae45948b1ab213f6 = $(`<div id="html_35a2dde13ee94f82ae45948b1ab213f6" style="width: 100.0%; height: 100.0%;">УИК №284 Амосов-12.07% Беглов-59.91% Тихонова-25.43%</div>`)[0];
+            popup_b8866f6138c541db8075a9b17beb0533.setContent(html_35a2dde13ee94f82ae45948b1ab213f6);
+        
+
+        circle_c9c45361d4e54858a0ca07f9df427064.bindPopup(popup_b8866f6138c541db8075a9b17beb0533)
+        ;
+
+        
+    
+    
+            var circle_b5ec2182210d48929b52e30a65bf6746 = L.circle(
+                [60.064702, 30.308794],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d112cae99e794be4aa934acf94651787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9494ebe44914b5093ef71c3510c01cd = $(`<div id="html_e9494ebe44914b5093ef71c3510c01cd" style="width: 100.0%; height: 100.0%;">УИК №285 Амосов-15.9% Беглов-60.0% Тихонова-22.13%</div>`)[0];
+            popup_d112cae99e794be4aa934acf94651787.setContent(html_e9494ebe44914b5093ef71c3510c01cd);
+        
+
+        circle_b5ec2182210d48929b52e30a65bf6746.bindPopup(popup_d112cae99e794be4aa934acf94651787)
+        ;
+
+        
+    
+    
+            var circle_569804b9f5e74776a76d4adab22f3c8e = L.circle(
+                [60.064702, 30.308794],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_49b82ab06fc4430db59a708e26f760da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bcec6785dbc4964b6d0e70309940535 = $(`<div id="html_4bcec6785dbc4964b6d0e70309940535" style="width: 100.0%; height: 100.0%;">УИК №286 Амосов-19.07% Беглов-58.25% Тихонова-18.56%</div>`)[0];
+            popup_49b82ab06fc4430db59a708e26f760da.setContent(html_4bcec6785dbc4964b6d0e70309940535);
+        
+
+        circle_569804b9f5e74776a76d4adab22f3c8e.bindPopup(popup_49b82ab06fc4430db59a708e26f760da)
+        ;
+
+        
+    
+    
+            var circle_e3b59f0263e946209aafedc923ac7e80 = L.circle(
+                [60.064702, 30.308794],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5d5b7bf3d7ea403ebd6131a7efb9d9ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6748e816ed24288bdec41ac10b4ffb8 = $(`<div id="html_a6748e816ed24288bdec41ac10b4ffb8" style="width: 100.0%; height: 100.0%;">УИК №287 Амосов-14.74% Беглов-60.87% Тихонова-20.42%</div>`)[0];
+            popup_5d5b7bf3d7ea403ebd6131a7efb9d9ff.setContent(html_a6748e816ed24288bdec41ac10b4ffb8);
+        
+
+        circle_e3b59f0263e946209aafedc923ac7e80.bindPopup(popup_5d5b7bf3d7ea403ebd6131a7efb9d9ff)
+        ;
+
+        
+    
+    
+            var circle_b4808997186b44fc81bcd959811df37b = L.circle(
+                [60.026922, 30.311128],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d59e6d28e5194c498258bd21db860acb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa12150535664b0493fa5da14ca7d05b = $(`<div id="html_aa12150535664b0493fa5da14ca7d05b" style="width: 100.0%; height: 100.0%;">УИК №288 Амосов-23.82% Беглов-50.72% Тихонова-22.59%</div>`)[0];
+            popup_d59e6d28e5194c498258bd21db860acb.setContent(html_aa12150535664b0493fa5da14ca7d05b);
+        
+
+        circle_b4808997186b44fc81bcd959811df37b.bindPopup(popup_d59e6d28e5194c498258bd21db860acb)
+        ;
+
+        
+    
+    
+            var circle_e9326f62ca47489e91c97d5b0a25cfea = L.circle(
+                [60.102967, 30.212511],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_975e6e3ca96e4c888a1aaae687062474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14d4885353314e1aa06dd6800733440d = $(`<div id="html_14d4885353314e1aa06dd6800733440d" style="width: 100.0%; height: 100.0%;">УИК №289 Амосов-12.04% Беглов-55.31% Тихонова-29.49%</div>`)[0];
+            popup_975e6e3ca96e4c888a1aaae687062474.setContent(html_14d4885353314e1aa06dd6800733440d);
+        
+
+        circle_e9326f62ca47489e91c97d5b0a25cfea.bindPopup(popup_975e6e3ca96e4c888a1aaae687062474)
+        ;
+
+        
+    
+    
+            var circle_c73f1bb8b99f4ba2b113f4a3e7ad47a6 = L.circle(
+                [60.101922, 30.195838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_1dd43ea9e9fd4863aaf4a31532e1a204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3a58d39effe4ae0b6c82c620377b7d4 = $(`<div id="html_b3a58d39effe4ae0b6c82c620377b7d4" style="width: 100.0%; height: 100.0%;">УИК №290 Амосов-11.25% Беглов-68.73% Тихонова-17.53%</div>`)[0];
+            popup_1dd43ea9e9fd4863aaf4a31532e1a204.setContent(html_b3a58d39effe4ae0b6c82c620377b7d4);
+        
+
+        circle_c73f1bb8b99f4ba2b113f4a3e7ad47a6.bindPopup(popup_1dd43ea9e9fd4863aaf4a31532e1a204)
+        ;
+
+        
+    
+    
+            var circle_0f9da47eec6a4440821441123e47fd43 = L.circle(
+                [60.074552, 30.320962],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_560177d14a9e441f93cc9932987ba7d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edc31846d3eb4684980d16e548a130d0 = $(`<div id="html_edc31846d3eb4684980d16e548a130d0" style="width: 100.0%; height: 100.0%;">УИК №291 Амосов-16.72% Беглов-57.56% Тихонова-21.86%</div>`)[0];
+            popup_560177d14a9e441f93cc9932987ba7d4.setContent(html_edc31846d3eb4684980d16e548a130d0);
+        
+
+        circle_0f9da47eec6a4440821441123e47fd43.bindPopup(popup_560177d14a9e441f93cc9932987ba7d4)
+        ;
+
+        
+    
+    
+            var circle_3c7fd05b005246c9a8d42fc73fbf8158 = L.circle(
+                [60.076958, 30.276846],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_31164491ea554dfba74c315cc5baa232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98e44f379b764c3d800a477351b56053 = $(`<div id="html_98e44f379b764c3d800a477351b56053" style="width: 100.0%; height: 100.0%;">УИК №292 Амосов-17.8% Беглов-61.74% Тихонова-18.94%</div>`)[0];
+            popup_31164491ea554dfba74c315cc5baa232.setContent(html_98e44f379b764c3d800a477351b56053);
+        
+
+        circle_3c7fd05b005246c9a8d42fc73fbf8158.bindPopup(popup_31164491ea554dfba74c315cc5baa232)
+        ;
+
+        
+    
+    
+            var circle_ebc399cb59df45f6a379998bf0245b8e = L.circle(
+                [60.081471, 30.24138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b2e1bf95758d4068bb0f0c8f8156dd6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf26edaf89a542889d621c5360b16f1e = $(`<div id="html_bf26edaf89a542889d621c5360b16f1e" style="width: 100.0%; height: 100.0%;">УИК №293 Амосов-7.14% Беглов-65.85% Тихонова-25.45%</div>`)[0];
+            popup_b2e1bf95758d4068bb0f0c8f8156dd6f.setContent(html_bf26edaf89a542889d621c5360b16f1e);
+        
+
+        circle_ebc399cb59df45f6a379998bf0245b8e.bindPopup(popup_b2e1bf95758d4068bb0f0c8f8156dd6f)
+        ;
+
+        
+    
+    
+            var circle_8306306a3e964298987eb9e2311d8ac2 = L.circle(
+                [60.071016, 30.23608],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_56138d41a2d141af885be3db25bd6de7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62bb8fcb51af44beb093b072eba7b21f = $(`<div id="html_62bb8fcb51af44beb093b072eba7b21f" style="width: 100.0%; height: 100.0%;">УИК №294 Амосов-13.67% Беглов-62.57% Тихонова-21.96%</div>`)[0];
+            popup_56138d41a2d141af885be3db25bd6de7.setContent(html_62bb8fcb51af44beb093b072eba7b21f);
+        
+
+        circle_8306306a3e964298987eb9e2311d8ac2.bindPopup(popup_56138d41a2d141af885be3db25bd6de7)
+        ;
+
+        
+    
+    
+            var circle_e06bc06108294535b008dbef986d755f = L.circle(
+                [60.088512, 30.270602],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_32a14678b42b417e8ef3fc86a4e6d2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e72f87f25a2497c8538da7376d0ac97 = $(`<div id="html_7e72f87f25a2497c8538da7376d0ac97" style="width: 100.0%; height: 100.0%;">УИК №295 Амосов-17.49% Беглов-65.27% Тихонова-14.53%</div>`)[0];
+            popup_32a14678b42b417e8ef3fc86a4e6d2f2.setContent(html_7e72f87f25a2497c8538da7376d0ac97);
+        
+
+        circle_e06bc06108294535b008dbef986d755f.bindPopup(popup_32a14678b42b417e8ef3fc86a4e6d2f2)
+        ;
+
+        
+    
+    
+            var circle_41ff14a3432b4c39bbb627278bed0aec = L.circle(
+                [60.109648, 30.246131],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_0d83446ed9724e98bd205a6cca315b11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffb869d4d2fc447b8c15759327eab2c0 = $(`<div id="html_ffb869d4d2fc447b8c15759327eab2c0" style="width: 100.0%; height: 100.0%;">УИК №296 Амосов-15.04% Беглов-65.41% Тихонова-17.67%</div>`)[0];
+            popup_0d83446ed9724e98bd205a6cca315b11.setContent(html_ffb869d4d2fc447b8c15759327eab2c0);
+        
+
+        circle_41ff14a3432b4c39bbb627278bed0aec.bindPopup(popup_0d83446ed9724e98bd205a6cca315b11)
+        ;
+
+        
+    
+    
+            var circle_c8bcafb561274de6ba5184e02a03b6de = L.circle(
+                [60.109222, 30.265904],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_27205c87e15e475489ffedf735c08536 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c101a13d4e4706b642b74550f561b0 = $(`<div id="html_d3c101a13d4e4706b642b74550f561b0" style="width: 100.0%; height: 100.0%;">УИК №297 Амосов-10.09% Беглов-64.09% Тихонова-22.55%</div>`)[0];
+            popup_27205c87e15e475489ffedf735c08536.setContent(html_d3c101a13d4e4706b642b74550f561b0);
+        
+
+        circle_c8bcafb561274de6ba5184e02a03b6de.bindPopup(popup_27205c87e15e475489ffedf735c08536)
+        ;
+
+        
+    
+    
+            var circle_4e992a47f6044225b9b96cdc2e57c2bb = L.circle(
+                [60.107926, 30.264714],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_11b18da1bbd04e65832e1b8e0c3d7b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fb0c1ec3ad54007a0896477f667680b = $(`<div id="html_7fb0c1ec3ad54007a0896477f667680b" style="width: 100.0%; height: 100.0%;">УИК №298 Амосов-12.93% Беглов-58.83% Тихонова-26.29%</div>`)[0];
+            popup_11b18da1bbd04e65832e1b8e0c3d7b37.setContent(html_7fb0c1ec3ad54007a0896477f667680b);
+        
+
+        circle_4e992a47f6044225b9b96cdc2e57c2bb.bindPopup(popup_11b18da1bbd04e65832e1b8e0c3d7b37)
+        ;
+
+        
+    
+    
+            var circle_d7a8b31d586b4980af93337a7e63edad = L.circle(
+                [60.109222, 30.265904],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9d96cfdcce674c29ad4d96200e53819e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb18d8e67e854c1592edef8a29866427 = $(`<div id="html_cb18d8e67e854c1592edef8a29866427" style="width: 100.0%; height: 100.0%;">УИК №299 Амосов-9.94% Беглов-66.97% Тихонова-21.41%</div>`)[0];
+            popup_9d96cfdcce674c29ad4d96200e53819e.setContent(html_cb18d8e67e854c1592edef8a29866427);
+        
+
+        circle_d7a8b31d586b4980af93337a7e63edad.bindPopup(popup_9d96cfdcce674c29ad4d96200e53819e)
+        ;
+
+        
+    
+    
+            var circle_75d8e69c67bd46a7a768040ece7518c1 = L.circle(
+                [60.109222, 30.265904],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a078c28be3e14a5089dbc8acc298ae6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01f51e1709e64682be965500e0cb01f7 = $(`<div id="html_01f51e1709e64682be965500e0cb01f7" style="width: 100.0%; height: 100.0%;">УИК №300 Амосов-12.72% Беглов-63.58% Тихонова-21.19%</div>`)[0];
+            popup_a078c28be3e14a5089dbc8acc298ae6e.setContent(html_01f51e1709e64682be965500e0cb01f7);
+        
+
+        circle_75d8e69c67bd46a7a768040ece7518c1.bindPopup(popup_a078c28be3e14a5089dbc8acc298ae6e)
+        ;
+
+        
+    
+    
+            var circle_09ea288b43284768b3f1eae6d394828c = L.circle(
+                [60.107926, 30.264714],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b080bc99532a4e549fd9cb2311a0c617 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa2a4f9cc33a4069911885e06e250faa = $(`<div id="html_fa2a4f9cc33a4069911885e06e250faa" style="width: 100.0%; height: 100.0%;">УИК №301 Амосов-10.41% Беглов-70.76% Тихонова-15.55%</div>`)[0];
+            popup_b080bc99532a4e549fd9cb2311a0c617.setContent(html_fa2a4f9cc33a4069911885e06e250faa);
+        
+
+        circle_09ea288b43284768b3f1eae6d394828c.bindPopup(popup_b080bc99532a4e549fd9cb2311a0c617)
+        ;
+
+        
+    
+    
+            var circle_350d81ed753a41b287cb958dd8fb5c76 = L.circle(
+                [60.071349, 30.333933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_bc27baf9994f4c438f4b3653e5f4cc2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bf56aae52bd44f0a1dbc2e97f638f37 = $(`<div id="html_7bf56aae52bd44f0a1dbc2e97f638f37" style="width: 100.0%; height: 100.0%;">УИК №302 Амосов-19.21% Беглов-47.52% Тихонова-31.2%</div>`)[0];
+            popup_bc27baf9994f4c438f4b3653e5f4cc2d.setContent(html_7bf56aae52bd44f0a1dbc2e97f638f37);
+        
+
+        circle_350d81ed753a41b287cb958dd8fb5c76.bindPopup(popup_bc27baf9994f4c438f4b3653e5f4cc2d)
+        ;
+
+        
+    
+    
+            var circle_43689f2a9a8a4881915c11d2b56d011b = L.circle(
+                [60.071349, 30.333933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_566bb74fd48f467bac178e7eb9697d8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd346c911a7745318f2b9d3dd4b4000a = $(`<div id="html_cd346c911a7745318f2b9d3dd4b4000a" style="width: 100.0%; height: 100.0%;">УИК №303 Амосов-19.06% Беглов-48.47% Тихонова-29.41%</div>`)[0];
+            popup_566bb74fd48f467bac178e7eb9697d8d.setContent(html_cd346c911a7745318f2b9d3dd4b4000a);
+        
+
+        circle_43689f2a9a8a4881915c11d2b56d011b.bindPopup(popup_566bb74fd48f467bac178e7eb9697d8d)
+        ;
+
+        
+    
+    
+            var circle_02de7e89960a4368b4127cf2ffd87ab9 = L.circle(
+                [60.071349, 30.333933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_aa9e8ec398644682aabc1f734edc86af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a149a94d85df41edb83821a9127b446b = $(`<div id="html_a149a94d85df41edb83821a9127b446b" style="width: 100.0%; height: 100.0%;">УИК №304 Амосов-21.58% Беглов-47.22% Тихонова-27.99%</div>`)[0];
+            popup_aa9e8ec398644682aabc1f734edc86af.setContent(html_a149a94d85df41edb83821a9127b446b);
+        
+
+        circle_02de7e89960a4368b4127cf2ffd87ab9.bindPopup(popup_aa9e8ec398644682aabc1f734edc86af)
+        ;
+
+        
+    
+    
+            var circle_02d18d6b2fe047088476a92103afa86b = L.circle(
+                [60.071349, 30.333933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_900bc33c9fb94c98bfc53fced0bb66b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d18a3bcbbb341e99398dfef44c937d2 = $(`<div id="html_1d18a3bcbbb341e99398dfef44c937d2" style="width: 100.0%; height: 100.0%;">УИК №305 Амосов-24.71% Беглов-43.73% Тихонова-27.17%</div>`)[0];
+            popup_900bc33c9fb94c98bfc53fced0bb66b8.setContent(html_1d18a3bcbbb341e99398dfef44c937d2);
+        
+
+        circle_02d18d6b2fe047088476a92103afa86b.bindPopup(popup_900bc33c9fb94c98bfc53fced0bb66b8)
+        ;
+
+        
+    
+    
+            var circle_0a56bc1425b84edf9a602db1c3b86ba3 = L.circle(
+                [60.071349, 30.333933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e1d854d796a44299be41082d296c992d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7669a955ec014b0ebfd36ef85e3eaa24 = $(`<div id="html_7669a955ec014b0ebfd36ef85e3eaa24" style="width: 100.0%; height: 100.0%;">УИК №306 Амосов-21.36% Беглов-48.58% Тихонова-27.69%</div>`)[0];
+            popup_e1d854d796a44299be41082d296c992d.setContent(html_7669a955ec014b0ebfd36ef85e3eaa24);
+        
+
+        circle_0a56bc1425b84edf9a602db1c3b86ba3.bindPopup(popup_e1d854d796a44299be41082d296c992d)
+        ;
+
+        
+    
+    
+            var circle_f9e2e5bda8df47c4bc288691473b2913 = L.circle(
+                [60.072475, 30.334942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_08666adb11514b949f3f474d85772eba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1788834d71734711a34b9ec0c0cb1e7a = $(`<div id="html_1788834d71734711a34b9ec0c0cb1e7a" style="width: 100.0%; height: 100.0%;">УИК №307 Амосов-27.31% Беглов-39.92% Тихонова-30.46%</div>`)[0];
+            popup_08666adb11514b949f3f474d85772eba.setContent(html_1788834d71734711a34b9ec0c0cb1e7a);
+        
+
+        circle_f9e2e5bda8df47c4bc288691473b2913.bindPopup(popup_08666adb11514b949f3f474d85772eba)
+        ;
+
+        
+    
+    
+            var circle_817c9b01d1c44d0581ebc1b7a81f91bb = L.circle(
+                [60.072475, 30.334942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_c61fb49ee2b641949fd0f1d42fa2fac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f4342aa0e8140578ba28b479479c378 = $(`<div id="html_1f4342aa0e8140578ba28b479479c378" style="width: 100.0%; height: 100.0%;">УИК №308 Амосов-18.55% Беглов-46.96% Тихонова-33.33%</div>`)[0];
+            popup_c61fb49ee2b641949fd0f1d42fa2fac3.setContent(html_1f4342aa0e8140578ba28b479479c378);
+        
+
+        circle_817c9b01d1c44d0581ebc1b7a81f91bb.bindPopup(popup_c61fb49ee2b641949fd0f1d42fa2fac3)
+        ;
+
+        
+    
+    
+            var circle_a7a482b41af9452ebe6b9a91d48380de = L.circle(
+                [60.071016, 30.23608],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5ec47a0b91b34487abb8817e071076ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2fcc3da4a3e41c786f8053db5ef02ba = $(`<div id="html_c2fcc3da4a3e41c786f8053db5ef02ba" style="width: 100.0%; height: 100.0%;">УИК №309 Амосов-8.55% Беглов-70.21% Тихонова-18.65%</div>`)[0];
+            popup_5ec47a0b91b34487abb8817e071076ca.setContent(html_c2fcc3da4a3e41c786f8053db5ef02ba);
+        
+
+        circle_a7a482b41af9452ebe6b9a91d48380de.bindPopup(popup_5ec47a0b91b34487abb8817e071076ca)
+        ;
+
+        
+    
+    
+            var circle_84b82d9f88d84956a1286fd097da7112 = L.circle(
+                [60.072475, 30.334942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_16bd4f9268214680bdd643b10dcfce5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_263f39f4c0ad48679178291ff7e436e8 = $(`<div id="html_263f39f4c0ad48679178291ff7e436e8" style="width: 100.0%; height: 100.0%;">УИК №310 Амосов-21.32% Беглов-45.74% Тихонова-29.26%</div>`)[0];
+            popup_16bd4f9268214680bdd643b10dcfce5e.setContent(html_263f39f4c0ad48679178291ff7e436e8);
+        
+
+        circle_84b82d9f88d84956a1286fd097da7112.bindPopup(popup_16bd4f9268214680bdd643b10dcfce5e)
+        ;
+
+        
+    
+    
+            var circle_836160f29bac465f8f15b209fe860884 = L.circle(
+                [60.072475, 30.334942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_b1e78cf1f29a4ac3a77b0ef371ce73e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a626fb6527b429caa47e87b7480a455 = $(`<div id="html_6a626fb6527b429caa47e87b7480a455" style="width: 100.0%; height: 100.0%;">УИК №311 Амосов-22.26% Беглов-44.51% Тихонова-28.49%</div>`)[0];
+            popup_b1e78cf1f29a4ac3a77b0ef371ce73e9.setContent(html_6a626fb6527b429caa47e87b7480a455);
+        
+
+        circle_836160f29bac465f8f15b209fe860884.bindPopup(popup_b1e78cf1f29a4ac3a77b0ef371ce73e9)
+        ;
+
+        
+    
+    
+            var circle_bcc388bc077f438b8a6b5beb071ac98d = L.circle(
+                [60.072475, 30.334942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_98d488a83705432eb6c26748df21fc80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47d9e92bad6140aba129a03b2ea7fc88 = $(`<div id="html_47d9e92bad6140aba129a03b2ea7fc88" style="width: 100.0%; height: 100.0%;">УИК №312 Амосов-21.76% Беглов-44.64% Тихонова-32.0%</div>`)[0];
+            popup_98d488a83705432eb6c26748df21fc80.setContent(html_47d9e92bad6140aba129a03b2ea7fc88);
+        
+
+        circle_bcc388bc077f438b8a6b5beb071ac98d.bindPopup(popup_98d488a83705432eb6c26748df21fc80)
+        ;
+
+        
+    
+    
+            var circle_8b8b192b742e427787d921fd9f48fc1d = L.circle(
+                [59.962192, 30.345647],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_450eeb7dc47f4d65b5a45c0f43b83b72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e725fbe4f9741bab78be6ff2e54586c = $(`<div id="html_5e725fbe4f9741bab78be6ff2e54586c" style="width: 100.0%; height: 100.0%;">УИК №330 Амосов-21.55% Беглов-46.96% Тихонова-29.28%</div>`)[0];
+            popup_450eeb7dc47f4d65b5a45c0f43b83b72.setContent(html_5e725fbe4f9741bab78be6ff2e54586c);
+        
+
+        circle_8b8b192b742e427787d921fd9f48fc1d.bindPopup(popup_450eeb7dc47f4d65b5a45c0f43b83b72)
+        ;
+
+        
+    
+    
+            var circle_77a7d5de561f4d05932ba0bd074826ee = L.circle(
+                [59.964696, 30.345701],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2f41d1962ac04de9bf68c7be70f70c5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d06b7073e0b44cfdaf176a3711e080ce = $(`<div id="html_d06b7073e0b44cfdaf176a3711e080ce" style="width: 100.0%; height: 100.0%;">УИК №331 Амосов-22.52% Беглов-46.62% Тихонова-28.38%</div>`)[0];
+            popup_2f41d1962ac04de9bf68c7be70f70c5a.setContent(html_d06b7073e0b44cfdaf176a3711e080ce);
+        
+
+        circle_77a7d5de561f4d05932ba0bd074826ee.bindPopup(popup_2f41d1962ac04de9bf68c7be70f70c5a)
+        ;
+
+        
+    
+    
+            var circle_a06bc6c5ab7846f88002e94e82975ee6 = L.circle(
+                [59.964696, 30.345701],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9e3912571ea44515ac6e4b2936d24bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee52031e220f4b099400f8602e02c536 = $(`<div id="html_ee52031e220f4b099400f8602e02c536" style="width: 100.0%; height: 100.0%;">УИК №332 Амосов-25.43% Беглов-45.95% Тихонова-27.17%</div>`)[0];
+            popup_9e3912571ea44515ac6e4b2936d24bf4.setContent(html_ee52031e220f4b099400f8602e02c536);
+        
+
+        circle_a06bc6c5ab7846f88002e94e82975ee6.bindPopup(popup_9e3912571ea44515ac6e4b2936d24bf4)
+        ;
+
+        
+    
+    
+            var circle_f62ec09635454771851c16c011442041 = L.circle(
+                [59.970718, 30.343312],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_fb203bb825dd49d7ac06b64edde0eb57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31954f7d9c034a8091abe1d8ee720378 = $(`<div id="html_31954f7d9c034a8091abe1d8ee720378" style="width: 100.0%; height: 100.0%;">УИК №333 Амосов-21.18% Беглов-52.06% Тихонова-23.34%</div>`)[0];
+            popup_fb203bb825dd49d7ac06b64edde0eb57.setContent(html_31954f7d9c034a8091abe1d8ee720378);
+        
+
+        circle_f62ec09635454771851c16c011442041.bindPopup(popup_fb203bb825dd49d7ac06b64edde0eb57)
+        ;
+
+        
+    
+    
+            var circle_d4ca1c710fb64115841285ad0bde2553 = L.circle(
+                [59.972938, 30.343653],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_5634071cf9c44bef89ce90f5a7614194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07ea91ee1f184dfaad8131258a528847 = $(`<div id="html_07ea91ee1f184dfaad8131258a528847" style="width: 100.0%; height: 100.0%;">УИК №334 Амосов-26.84% Беглов-52.08% Тихонова-19.17%</div>`)[0];
+            popup_5634071cf9c44bef89ce90f5a7614194.setContent(html_07ea91ee1f184dfaad8131258a528847);
+        
+
+        circle_d4ca1c710fb64115841285ad0bde2553.bindPopup(popup_5634071cf9c44bef89ce90f5a7614194)
+        ;
+
+        
+    
+    
+            var circle_63d2e86ceb704a52a3ce76cf23903a28 = L.circle(
+                [59.986124, 30.333197],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4abc1b984b7344c4b7a36736bfb00647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7210667e5a334f36bd0064c544532e95 = $(`<div id="html_7210667e5a334f36bd0064c544532e95" style="width: 100.0%; height: 100.0%;">УИК №335 Амосов-24.19% Беглов-50.81% Тихонова-22.24%</div>`)[0];
+            popup_4abc1b984b7344c4b7a36736bfb00647.setContent(html_7210667e5a334f36bd0064c544532e95);
+        
+
+        circle_63d2e86ceb704a52a3ce76cf23903a28.bindPopup(popup_4abc1b984b7344c4b7a36736bfb00647)
+        ;
+
+        
+    
+    
+            var circle_dc1c97a4a0f443eba1ffdb87ab7e028f = L.circle(
+                [59.983036, 30.348423],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d7834cd0d5de4dd2af28d9c855d6e261 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc591e582eea4cc69dcd1010479082f8 = $(`<div id="html_dc591e582eea4cc69dcd1010479082f8" style="width: 100.0%; height: 100.0%;">УИК №336 Амосов-12.55% Беглов-68.45% Тихонова-17.34%</div>`)[0];
+            popup_d7834cd0d5de4dd2af28d9c855d6e261.setContent(html_dc591e582eea4cc69dcd1010479082f8);
+        
+
+        circle_dc1c97a4a0f443eba1ffdb87ab7e028f.bindPopup(popup_d7834cd0d5de4dd2af28d9c855d6e261)
+        ;
+
+        
+    
+    
+            var circle_75115bfb98bd43fb99fa6e2da2a2ad2d = L.circle(
+                [59.983036, 30.348423],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d3b5379c2959494c99bed370e97a6e53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ace8688de9a54bb999fa1c95b31abf69 = $(`<div id="html_ace8688de9a54bb999fa1c95b31abf69" style="width: 100.0%; height: 100.0%;">УИК №337 Амосов-11.4% Беглов-69.52% Тихонова-15.12%</div>`)[0];
+            popup_d3b5379c2959494c99bed370e97a6e53.setContent(html_ace8688de9a54bb999fa1c95b31abf69);
+        
+
+        circle_75115bfb98bd43fb99fa6e2da2a2ad2d.bindPopup(popup_d3b5379c2959494c99bed370e97a6e53)
+        ;
+
+        
+    
+    
+            var circle_0e006fbf2ab54723950b116e47c3fdb9 = L.circle(
+                [59.986469, 30.349744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_6893bf4c437742bb82c019e1d3a8c8e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4db68bd4153430a899a9f5651a3b6c2 = $(`<div id="html_c4db68bd4153430a899a9f5651a3b6c2" style="width: 100.0%; height: 100.0%;">УИК №338 Амосов-26.78% Беглов-50.82% Тихонова-18.58%</div>`)[0];
+            popup_6893bf4c437742bb82c019e1d3a8c8e7.setContent(html_c4db68bd4153430a899a9f5651a3b6c2);
+        
+
+        circle_0e006fbf2ab54723950b116e47c3fdb9.bindPopup(popup_6893bf4c437742bb82c019e1d3a8c8e7)
+        ;
+
+        
+    
+    
+            var circle_e3c56b2591c24242967c1fe2adad5058 = L.circle(
+                [59.986469, 30.349744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4e9826ccf1ce44e2bc87d90c6cb4865d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeaeccbfd932496cab8ddddaf0d5caf6 = $(`<div id="html_aeaeccbfd932496cab8ddddaf0d5caf6" style="width: 100.0%; height: 100.0%;">УИК №339 Амосов-21.42% Беглов-59.59% Тихонова-16.2%</div>`)[0];
+            popup_4e9826ccf1ce44e2bc87d90c6cb4865d.setContent(html_aeaeccbfd932496cab8ddddaf0d5caf6);
+        
+
+        circle_e3c56b2591c24242967c1fe2adad5058.bindPopup(popup_4e9826ccf1ce44e2bc87d90c6cb4865d)
+        ;
+
+        
+    
+    
+            var circle_f4a0a87235744df9af8c9eeb4f172ffe = L.circle(
+                [59.986469, 30.349744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4806c6ca18f448408ac7d17537e93480 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f952fe06c61b4becb2e4aab3a5d3584d = $(`<div id="html_f952fe06c61b4becb2e4aab3a5d3584d" style="width: 100.0%; height: 100.0%;">УИК №340 Амосов-23.44% Беглов-56.25% Тихонова-17.71%</div>`)[0];
+            popup_4806c6ca18f448408ac7d17537e93480.setContent(html_f952fe06c61b4becb2e4aab3a5d3584d);
+        
+
+        circle_f4a0a87235744df9af8c9eeb4f172ffe.bindPopup(popup_4806c6ca18f448408ac7d17537e93480)
+        ;
+
+        
+    
+    
+            var circle_1bc785fd866b464da2c5b64f2abcc3ba = L.circle(
+                [59.986469, 30.349744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9cfa56cb54a2422fa216108db7eb3692 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c54da51bf98241a2990394d8894bcad3 = $(`<div id="html_c54da51bf98241a2990394d8894bcad3" style="width: 100.0%; height: 100.0%;">УИК №341 Амосов-18.54% Беглов-56.1% Тихонова-21.13%</div>`)[0];
+            popup_9cfa56cb54a2422fa216108db7eb3692.setContent(html_c54da51bf98241a2990394d8894bcad3);
+        
+
+        circle_1bc785fd866b464da2c5b64f2abcc3ba.bindPopup(popup_9cfa56cb54a2422fa216108db7eb3692)
+        ;
+
+        
+    
+    
+            var circle_3ab65f3c1553442b9be317fe065990c7 = L.circle(
+                [59.986124, 30.333197],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_08be7b5155b04a78b0fcde8042569a1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac99703bdc134f998786ecd0df1fd340 = $(`<div id="html_ac99703bdc134f998786ecd0df1fd340" style="width: 100.0%; height: 100.0%;">УИК №342 Амосов-20.99% Беглов-49.56% Тихонова-23.32%</div>`)[0];
+            popup_08be7b5155b04a78b0fcde8042569a1b.setContent(html_ac99703bdc134f998786ecd0df1fd340);
+        
+
+        circle_3ab65f3c1553442b9be317fe065990c7.bindPopup(popup_08be7b5155b04a78b0fcde8042569a1b)
+        ;
+
+        
+    
+    
+            var circle_4840ac7d76744b58860498a28f1b3116 = L.circle(
+                [59.967191, 30.343896],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_644b847026c048d7ac443e02574c545a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a0e0f9b6cad4997843613a9f3150146 = $(`<div id="html_7a0e0f9b6cad4997843613a9f3150146" style="width: 100.0%; height: 100.0%;">УИК №343 Амосов-29.42% Беглов-46.7% Тихонова-20.68%</div>`)[0];
+            popup_644b847026c048d7ac443e02574c545a.setContent(html_7a0e0f9b6cad4997843613a9f3150146);
+        
+
+        circle_4840ac7d76744b58860498a28f1b3116.bindPopup(popup_644b847026c048d7ac443e02574c545a)
+        ;
+
+        
+    
+    
+            var circle_b1052908ae8d4ab196f339d55f62db20 = L.circle(
+                [60.00321, 30.353786],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_bd061ef0113647028f5ae20152dcc80f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9985514fd12452987fdbb87ce6f89f7 = $(`<div id="html_c9985514fd12452987fdbb87ce6f89f7" style="width: 100.0%; height: 100.0%;">УИК №344 Амосов-25.39% Беглов-53.64% Тихонова-20.53%</div>`)[0];
+            popup_bd061ef0113647028f5ae20152dcc80f.setContent(html_c9985514fd12452987fdbb87ce6f89f7);
+        
+
+        circle_b1052908ae8d4ab196f339d55f62db20.bindPopup(popup_bd061ef0113647028f5ae20152dcc80f)
+        ;
+
+        
+    
+    
+            var circle_46c3a6da90b34a578169d9e7522cf0d7 = L.circle(
+                [59.998378, 30.351037],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ea3053ba1f384907bda572fbd730a730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1beab6dcd63d49bf9dc3691dd132913a = $(`<div id="html_1beab6dcd63d49bf9dc3691dd132913a" style="width: 100.0%; height: 100.0%;">УИК №345 Амосов-22.74% Беглов-57.12% Тихонова-17.01%</div>`)[0];
+            popup_ea3053ba1f384907bda572fbd730a730.setContent(html_1beab6dcd63d49bf9dc3691dd132913a);
+        
+
+        circle_46c3a6da90b34a578169d9e7522cf0d7.bindPopup(popup_ea3053ba1f384907bda572fbd730a730)
+        ;
+
+        
+    
+    
+            var circle_70a0aab8139847bca118bff2fef0463f = L.circle(
+                [60.00321, 30.353786],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_fc20854a4a3f4abcbc7881a02aebed3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_556b277e3a6745b8a2f59c8f43ed7721 = $(`<div id="html_556b277e3a6745b8a2f59c8f43ed7721" style="width: 100.0%; height: 100.0%;">УИК №346 Амосов-0.65% Беглов-97.96% Тихонова-1.39%</div>`)[0];
+            popup_fc20854a4a3f4abcbc7881a02aebed3e.setContent(html_556b277e3a6745b8a2f59c8f43ed7721);
+        
+
+        circle_70a0aab8139847bca118bff2fef0463f.bindPopup(popup_fc20854a4a3f4abcbc7881a02aebed3e)
+        ;
+
+        
+    
+    
+            var circle_fd006ed6b470409f8262bd97cb624db6 = L.circle(
+                [60.014378, 30.361664],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_091233851d00468d9c11f76e25c35521 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2493df4e2c9a4efe9084f1034ee79295 = $(`<div id="html_2493df4e2c9a4efe9084f1034ee79295" style="width: 100.0%; height: 100.0%;">УИК №347 Амосов-26.6% Беглов-58.55% Тихонова-11.74%</div>`)[0];
+            popup_091233851d00468d9c11f76e25c35521.setContent(html_2493df4e2c9a4efe9084f1034ee79295);
+        
+
+        circle_fd006ed6b470409f8262bd97cb624db6.bindPopup(popup_091233851d00468d9c11f76e25c35521)
+        ;
+
+        
+    
+    
+            var circle_039f649b1030478baacff6367282e8a1 = L.circle(
+                [60.014378, 30.361664],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2fab2632409148a69a2caf7a0df12a77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef720bb726bb47c09efa28482cb19963 = $(`<div id="html_ef720bb726bb47c09efa28482cb19963" style="width: 100.0%; height: 100.0%;">УИК №348 Амосов-27.93% Беглов-51.35% Тихонова-18.62%</div>`)[0];
+            popup_2fab2632409148a69a2caf7a0df12a77.setContent(html_ef720bb726bb47c09efa28482cb19963);
+        
+
+        circle_039f649b1030478baacff6367282e8a1.bindPopup(popup_2fab2632409148a69a2caf7a0df12a77)
+        ;
+
+        
+    
+    
+            var circle_5e8eed034fcc49a28174fd0db5906e8a = L.circle(
+                [60.008905, 30.352744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e3eee1b8a6dd4b74b015e3b4c5c700a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81f79cbcff97406981461d41b63d3552 = $(`<div id="html_81f79cbcff97406981461d41b63d3552" style="width: 100.0%; height: 100.0%;">УИК №349 Амосов-26.18% Беглов-53.35% Тихонова-17.13%</div>`)[0];
+            popup_e3eee1b8a6dd4b74b015e3b4c5c700a1.setContent(html_81f79cbcff97406981461d41b63d3552);
+        
+
+        circle_5e8eed034fcc49a28174fd0db5906e8a.bindPopup(popup_e3eee1b8a6dd4b74b015e3b4c5c700a1)
+        ;
+
+        
+    
+    
+            var circle_2596ddbbf7e34d46956ae3f962d29e63 = L.circle(
+                [60.008905, 30.352744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ee3056502e2846159e9bdb593f870d18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccdfbfcf4a3d4da39e9d7da85731cadc = $(`<div id="html_ccdfbfcf4a3d4da39e9d7da85731cadc" style="width: 100.0%; height: 100.0%;">УИК №350 Амосов-26.31% Беглов-52.34% Тихонова-18.32%</div>`)[0];
+            popup_ee3056502e2846159e9bdb593f870d18.setContent(html_ccdfbfcf4a3d4da39e9d7da85731cadc);
+        
+
+        circle_2596ddbbf7e34d46956ae3f962d29e63.bindPopup(popup_ee3056502e2846159e9bdb593f870d18)
+        ;
+
+        
+    
+    
+            var circle_2c16cb6a46aa4225b57c443921d32911 = L.circle(
+                [59.998724, 30.341021],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_c38c4d5422094664b22f3e84235abb0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f19fb1ce04d45e5afe7a719d56deae7 = $(`<div id="html_5f19fb1ce04d45e5afe7a719d56deae7" style="width: 100.0%; height: 100.0%;">УИК №351 Амосов-20.59% Беглов-53.98% Тихонова-22.46%</div>`)[0];
+            popup_c38c4d5422094664b22f3e84235abb0f.setContent(html_5f19fb1ce04d45e5afe7a719d56deae7);
+        
+
+        circle_2c16cb6a46aa4225b57c443921d32911.bindPopup(popup_c38c4d5422094664b22f3e84235abb0f)
+        ;
+
+        
+    
+    
+            var circle_461329b51c984788800df47bc99467aa = L.circle(
+                [59.998724, 30.341021],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_91c351eff071453e85883a25b5e17973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_315c64986f9c409a8c0f80f3beb4bf02 = $(`<div id="html_315c64986f9c409a8c0f80f3beb4bf02" style="width: 100.0%; height: 100.0%;">УИК №352 Амосов-34.55% Беглов-44.68% Тихонова-16.78%</div>`)[0];
+            popup_91c351eff071453e85883a25b5e17973.setContent(html_315c64986f9c409a8c0f80f3beb4bf02);
+        
+
+        circle_461329b51c984788800df47bc99467aa.bindPopup(popup_91c351eff071453e85883a25b5e17973)
+        ;
+
+        
+    
+    
+            var circle_45e68789e1c74a99b192c6dbd9aa3830 = L.circle(
+                [59.998724, 30.341021],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e5d58acb76834d4f8ee81e0ef6df170f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca618a4cb9284ed39e020be741baf618 = $(`<div id="html_ca618a4cb9284ed39e020be741baf618" style="width: 100.0%; height: 100.0%;">УИК №353 Амосов-23.59% Беглов-55.18% Тихонова-17.43%</div>`)[0];
+            popup_e5d58acb76834d4f8ee81e0ef6df170f.setContent(html_ca618a4cb9284ed39e020be741baf618);
+        
+
+        circle_45e68789e1c74a99b192c6dbd9aa3830.bindPopup(popup_e5d58acb76834d4f8ee81e0ef6df170f)
+        ;
+
+        
+    
+    
+            var circle_ab1d862c6ac8486d8619af478d8a9399 = L.circle(
+                [60.003318, 30.330079],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ba3a8269ce624b538cb0ac28487bf519 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ff40923ecf5402bb9e1c9b1a63e0f10 = $(`<div id="html_4ff40923ecf5402bb9e1c9b1a63e0f10" style="width: 100.0%; height: 100.0%;">УИК №354 Амосов-24.38% Беглов-57.05% Тихонова-15.66%</div>`)[0];
+            popup_ba3a8269ce624b538cb0ac28487bf519.setContent(html_4ff40923ecf5402bb9e1c9b1a63e0f10);
+        
+
+        circle_ab1d862c6ac8486d8619af478d8a9399.bindPopup(popup_ba3a8269ce624b538cb0ac28487bf519)
+        ;
+
+        
+    
+    
+            var circle_5f4ef569d66c4e08bba784edf6784e8d = L.circle(
+                [59.994945, 30.344677],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_522a1d39f74d48139eb900ac8f980c7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2006cd834d704a53bde113eb0ff551e4 = $(`<div id="html_2006cd834d704a53bde113eb0ff551e4" style="width: 100.0%; height: 100.0%;">УИК №355 Амосов-25.46% Беглов-56.47% Тихонова-14.99%</div>`)[0];
+            popup_522a1d39f74d48139eb900ac8f980c7f.setContent(html_2006cd834d704a53bde113eb0ff551e4);
+        
+
+        circle_5f4ef569d66c4e08bba784edf6784e8d.bindPopup(popup_522a1d39f74d48139eb900ac8f980c7f)
+        ;
+
+        
+    
+    
+            var circle_55f81ba2e0114ec1adbb050d0515d3bc = L.circle(
+                [60.000177, 30.34103],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f1ca524ba3db4530b8c769f71636b275 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec84d728ddc8434c9f2bf9f342238477 = $(`<div id="html_ec84d728ddc8434c9f2bf9f342238477" style="width: 100.0%; height: 100.0%;">УИК №356 Амосов-20.24% Беглов-56.67% Тихонова-18.57%</div>`)[0];
+            popup_f1ca524ba3db4530b8c769f71636b275.setContent(html_ec84d728ddc8434c9f2bf9f342238477);
+        
+
+        circle_55f81ba2e0114ec1adbb050d0515d3bc.bindPopup(popup_f1ca524ba3db4530b8c769f71636b275)
+        ;
+
+        
+    
+    
+            var circle_3b34d1ede4e642a4a8154311fa7c48a4 = L.circle(
+                [59.998783, 30.354316],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a5c8f307f14b4809be36434e07559308 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7f17a3c128e46f18377a4fa5e66b1c5 = $(`<div id="html_a7f17a3c128e46f18377a4fa5e66b1c5" style="width: 100.0%; height: 100.0%;">УИК №357 Амосов-24.52% Беглов-52.22% Тихонова-20.72%</div>`)[0];
+            popup_a5c8f307f14b4809be36434e07559308.setContent(html_a7f17a3c128e46f18377a4fa5e66b1c5);
+        
+
+        circle_3b34d1ede4e642a4a8154311fa7c48a4.bindPopup(popup_a5c8f307f14b4809be36434e07559308)
+        ;
+
+        
+    
+    
+            var circle_760f0036377f40359d88d5466356fcfd = L.circle(
+                [59.995093, 30.353391],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_f83a1b81451d40c8825258cd9f054f85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3ee55d4b9e940ac8f783885503145c0 = $(`<div id="html_c3ee55d4b9e940ac8f783885503145c0" style="width: 100.0%; height: 100.0%;">УИК №358 Амосов-26.26% Беглов-50.11% Тихонова-20.57%</div>`)[0];
+            popup_f83a1b81451d40c8825258cd9f054f85.setContent(html_c3ee55d4b9e940ac8f783885503145c0);
+        
+
+        circle_760f0036377f40359d88d5466356fcfd.bindPopup(popup_f83a1b81451d40c8825258cd9f054f85)
+        ;
+
+        
+    
+    
+            var circle_bb8148eb1f5d41019c59c4287a404098 = L.circle(
+                [60.003318, 30.330079],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4ece1f2161444d7db7f8229331cb8e54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c168fe509de4d99a562678e54304897 = $(`<div id="html_1c168fe509de4d99a562678e54304897" style="width: 100.0%; height: 100.0%;">УИК №359 Амосов-26.71% Беглов-50.97% Тихонова-20.56%</div>`)[0];
+            popup_4ece1f2161444d7db7f8229331cb8e54.setContent(html_1c168fe509de4d99a562678e54304897);
+        
+
+        circle_bb8148eb1f5d41019c59c4287a404098.bindPopup(popup_4ece1f2161444d7db7f8229331cb8e54)
+        ;
+
+        
+    
+    
+            var circle_0cf9fa9009564c7eb74f8a46037d92e9 = L.circle(
+                [60.005329, 30.34059],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ab36a7a7555541238268040fa06a8094 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d415f522f484edaa346cbf198470719 = $(`<div id="html_0d415f522f484edaa346cbf198470719" style="width: 100.0%; height: 100.0%;">УИК №360 Амосов-25.48% Беглов-54.98% Тихонова-17.24%</div>`)[0];
+            popup_ab36a7a7555541238268040fa06a8094.setContent(html_0d415f522f484edaa346cbf198470719);
+        
+
+        circle_0cf9fa9009564c7eb74f8a46037d92e9.bindPopup(popup_ab36a7a7555541238268040fa06a8094)
+        ;
+
+        
+    
+    
+            var circle_6539be51cb1f4f7486cb445c8b3ea775 = L.circle(
+                [60.006921, 30.346195],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_88d75143a1e64a098e1f82aeb3e46d49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333d5d5b661b4dd39bbab2b224902353 = $(`<div id="html_333d5d5b661b4dd39bbab2b224902353" style="width: 100.0%; height: 100.0%;">УИК №361 Амосов-26.26% Беглов-59.87% Тихонова-10.93%</div>`)[0];
+            popup_88d75143a1e64a098e1f82aeb3e46d49.setContent(html_333d5d5b661b4dd39bbab2b224902353);
+        
+
+        circle_6539be51cb1f4f7486cb445c8b3ea775.bindPopup(popup_88d75143a1e64a098e1f82aeb3e46d49)
+        ;
+
+        
+    
+    
+            var circle_4fcd5f8fd6684d338b6d5ab10353c182 = L.circle(
+                [60.006921, 30.346195],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_4588a8c7901f46adbeebec747de42c73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93f6f3a5cb2c4135a7dcd9abb2d98c4b = $(`<div id="html_93f6f3a5cb2c4135a7dcd9abb2d98c4b" style="width: 100.0%; height: 100.0%;">УИК №362 Амосов-13.55% Беглов-77.87% Тихонова-6.69%</div>`)[0];
+            popup_4588a8c7901f46adbeebec747de42c73.setContent(html_93f6f3a5cb2c4135a7dcd9abb2d98c4b);
+        
+
+        circle_4fcd5f8fd6684d338b6d5ab10353c182.bindPopup(popup_4588a8c7901f46adbeebec747de42c73)
+        ;
+
+        
+    
+    
+            var circle_bd0e04c31c104b329da2143511d4d70a = L.circle(
+                [60.005329, 30.34059],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_1bf2191255f042f9a0dd1687fcd04fb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5c8619043f47628f39a9ce4e3cd7cc = $(`<div id="html_5a5c8619043f47628f39a9ce4e3cd7cc" style="width: 100.0%; height: 100.0%;">УИК №363 Амосов-24.87% Беглов-52.12% Тихонова-20.37%</div>`)[0];
+            popup_1bf2191255f042f9a0dd1687fcd04fb4.setContent(html_5a5c8619043f47628f39a9ce4e3cd7cc);
+        
+
+        circle_bd0e04c31c104b329da2143511d4d70a.bindPopup(popup_1bf2191255f042f9a0dd1687fcd04fb4)
+        ;
+
+        
+    
+    
+            var circle_087bc103fd1047e995a4bba5baf5e752 = L.circle(
+                [60.01369, 30.334607],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_c6c80831855e4aafb1f80d87c2449ed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1796da0be62247ab8e7824417912f90b = $(`<div id="html_1796da0be62247ab8e7824417912f90b" style="width: 100.0%; height: 100.0%;">УИК №364 Амосов-23.28% Беглов-59.84% Тихонова-13.93%</div>`)[0];
+            popup_c6c80831855e4aafb1f80d87c2449ed7.setContent(html_1796da0be62247ab8e7824417912f90b);
+        
+
+        circle_087bc103fd1047e995a4bba5baf5e752.bindPopup(popup_c6c80831855e4aafb1f80d87c2449ed7)
+        ;
+
+        
+    
+    
+            var circle_0769c109d1684e04a6e80b49843246f5 = L.circle(
+                [60.01369, 30.334607],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_0d5f1d4b3d494b07bfc1338cc5c7c89e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ac382b7bf434e05857df8e0b17f16c9 = $(`<div id="html_6ac382b7bf434e05857df8e0b17f16c9" style="width: 100.0%; height: 100.0%;">УИК №365 Амосов-22.07% Беглов-54.18% Тихонова-20.74%</div>`)[0];
+            popup_0d5f1d4b3d494b07bfc1338cc5c7c89e.setContent(html_6ac382b7bf434e05857df8e0b17f16c9);
+        
+
+        circle_0769c109d1684e04a6e80b49843246f5.bindPopup(popup_0d5f1d4b3d494b07bfc1338cc5c7c89e)
+        ;
+
+        
+    
+    
+            var circle_d22d0ce647364838aa30d7c6d19d3344 = L.circle(
+                [60.015646, 30.33281],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_22aa9a5d3ed44db1a878420eb552dfcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_859f4ebc724a4418ad0a7789a7382977 = $(`<div id="html_859f4ebc724a4418ad0a7789a7382977" style="width: 100.0%; height: 100.0%;">УИК №366 Амосов-28.38% Беглов-50.29% Тихонова-19.05%</div>`)[0];
+            popup_22aa9a5d3ed44db1a878420eb552dfcb.setContent(html_859f4ebc724a4418ad0a7789a7382977);
+        
+
+        circle_d22d0ce647364838aa30d7c6d19d3344.bindPopup(popup_22aa9a5d3ed44db1a878420eb552dfcb)
+        ;
+
+        
+    
+    
+            var circle_a0fba5485ce34e5fae71e0d5ed6175be = L.circle(
+                [60.01369, 30.334607],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_69b961a7b2964aaaaf80cba61f6a5230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cf62da002ae4dbe88d7fd59e2b34dd2 = $(`<div id="html_4cf62da002ae4dbe88d7fd59e2b34dd2" style="width: 100.0%; height: 100.0%;">УИК №367 Амосов-25.71% Беглов-52.84% Тихонова-18.45%</div>`)[0];
+            popup_69b961a7b2964aaaaf80cba61f6a5230.setContent(html_4cf62da002ae4dbe88d7fd59e2b34dd2);
+        
+
+        circle_a0fba5485ce34e5fae71e0d5ed6175be.bindPopup(popup_69b961a7b2964aaaaf80cba61f6a5230)
+        ;
+
+        
+    
+    
+            var circle_11b58e7f87024f3f9d137ad78076031b = L.circle(
+                [60.01762, 30.333601],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_280dfd1e4beb4257bf8c648c9c737847 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37c0cd51c64f4296a0cc9e82f5bfbcc8 = $(`<div id="html_37c0cd51c64f4296a0cc9e82f5bfbcc8" style="width: 100.0%; height: 100.0%;">УИК №368 Амосов-30.39% Беглов-50.31% Тихонова-17.04%</div>`)[0];
+            popup_280dfd1e4beb4257bf8c648c9c737847.setContent(html_37c0cd51c64f4296a0cc9e82f5bfbcc8);
+        
+
+        circle_11b58e7f87024f3f9d137ad78076031b.bindPopup(popup_280dfd1e4beb4257bf8c648c9c737847)
+        ;
+
+        
+    
+    
+            var circle_94eb59c17d804083b1c611475d68b76a = L.circle(
+                [60.010551, 30.323935],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_21503ce9e13247e2a3432bfd83eead9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac5f3dcca4ae4d85ac2002621b735915 = $(`<div id="html_ac5f3dcca4ae4d85ac2002621b735915" style="width: 100.0%; height: 100.0%;">УИК №369 Амосов-25.65% Беглов-58.03% Тихонова-15.03%</div>`)[0];
+            popup_21503ce9e13247e2a3432bfd83eead9b.setContent(html_ac5f3dcca4ae4d85ac2002621b735915);
+        
+
+        circle_94eb59c17d804083b1c611475d68b76a.bindPopup(popup_21503ce9e13247e2a3432bfd83eead9b)
+        ;
+
+        
+    
+    
+            var circle_c02f381b76774e37a0238ba4f1734bac = L.circle(
+                [60.010551, 30.323935],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9bc6864e6b48456f96dac1db1bd6d0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df84b8484dfa4589964aa1d2c88fb526 = $(`<div id="html_df84b8484dfa4589964aa1d2c88fb526" style="width: 100.0%; height: 100.0%;">УИК №370 Амосов-27.27% Беглов-52.11% Тихонова-17.74%</div>`)[0];
+            popup_9bc6864e6b48456f96dac1db1bd6d0f4.setContent(html_df84b8484dfa4589964aa1d2c88fb526);
+        
+
+        circle_c02f381b76774e37a0238ba4f1734bac.bindPopup(popup_9bc6864e6b48456f96dac1db1bd6d0f4)
+        ;
+
+        
+    
+    
+            var circle_8906be5bda5441fbba008508a2ad567d = L.circle(
+                [60.014531, 30.32018],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_95bbb4e0cdc847e286d1ba5aa51a21cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_806c82f97dca4ccead4be4eeea79a7be = $(`<div id="html_806c82f97dca4ccead4be4eeea79a7be" style="width: 100.0%; height: 100.0%;">УИК №371 Амосов-30.23% Беглов-47.34% Тихонова-20.53%</div>`)[0];
+            popup_95bbb4e0cdc847e286d1ba5aa51a21cd.setContent(html_806c82f97dca4ccead4be4eeea79a7be);
+        
+
+        circle_8906be5bda5441fbba008508a2ad567d.bindPopup(popup_95bbb4e0cdc847e286d1ba5aa51a21cd)
+        ;
+
+        
+    
+    
+            var circle_d4a2efecb3b541649e20d5e83f379f73 = L.circle(
+                [60.021231, 30.314997],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_030d8038203344739b951f06ee722160 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b2e10acd594bfe8f4bd6b98c045d6d = $(`<div id="html_04b2e10acd594bfe8f4bd6b98c045d6d" style="width: 100.0%; height: 100.0%;">УИК №372 Амосов-15.19% Беглов-66.15% Тихонова-16.35%</div>`)[0];
+            popup_030d8038203344739b951f06ee722160.setContent(html_04b2e10acd594bfe8f4bd6b98c045d6d);
+        
+
+        circle_d4a2efecb3b541649e20d5e83f379f73.bindPopup(popup_030d8038203344739b951f06ee722160)
+        ;
+
+        
+    
+    
+            var circle_150f8e84c7a948caac870b7f4b268b68 = L.circle(
+                [60.01762, 30.333601],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_d55e25d0535e4358a0caa5b62cb1fce4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbdc62d3a15f4206a53d08bbad7d1bea = $(`<div id="html_dbdc62d3a15f4206a53d08bbad7d1bea" style="width: 100.0%; height: 100.0%;">УИК №373 Амосов-29.07% Беглов-51.19% Тихонова-16.09%</div>`)[0];
+            popup_d55e25d0535e4358a0caa5b62cb1fce4.setContent(html_dbdc62d3a15f4206a53d08bbad7d1bea);
+        
+
+        circle_150f8e84c7a948caac870b7f4b268b68.bindPopup(popup_d55e25d0535e4358a0caa5b62cb1fce4)
+        ;
+
+        
+    
+    
+            var circle_a7ab207ae1bf4435b0b3936cb55c25e2 = L.circle(
+                [60.01762, 30.333601],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_81a57816a6e240bfbf54cd8eea67149f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab41485df3ab48a8b091bb6d51728361 = $(`<div id="html_ab41485df3ab48a8b091bb6d51728361" style="width: 100.0%; height: 100.0%;">УИК №374 Амосов-25.64% Беглов-52.56% Тихонова-18.91%</div>`)[0];
+            popup_81a57816a6e240bfbf54cd8eea67149f.setContent(html_ab41485df3ab48a8b091bb6d51728361);
+        
+
+        circle_a7ab207ae1bf4435b0b3936cb55c25e2.bindPopup(popup_81a57816a6e240bfbf54cd8eea67149f)
+        ;
+
+        
+    
+    
+            var circle_1ec1603cc4304556a1a102c1f841223f = L.circle(
+                [60.027144, 30.311733],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a780e33d245d46e4bcedb24eb1169ac5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca09e6e1f4ba43aeb204e3e8b51b510a = $(`<div id="html_ca09e6e1f4ba43aeb204e3e8b51b510a" style="width: 100.0%; height: 100.0%;">УИК №375 Амосов-25.03% Беглов-49.23% Тихонова-21.49%</div>`)[0];
+            popup_a780e33d245d46e4bcedb24eb1169ac5.setContent(html_ca09e6e1f4ba43aeb204e3e8b51b510a);
+        
+
+        circle_1ec1603cc4304556a1a102c1f841223f.bindPopup(popup_a780e33d245d46e4bcedb24eb1169ac5)
+        ;
+
+        
+    
+    
+            var circle_5e48637340004895b8ddbc2744641531 = L.circle(
+                [60.034641, 30.336125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a2db8e5d05ec47b99c86145200c2ac2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc70462d74ab4f39ae2a240486ec43ab = $(`<div id="html_cc70462d74ab4f39ae2a240486ec43ab" style="width: 100.0%; height: 100.0%;">УИК №378 Амосов-31.93% Беглов-47.76% Тихонова-17.37%</div>`)[0];
+            popup_a2db8e5d05ec47b99c86145200c2ac2b.setContent(html_cc70462d74ab4f39ae2a240486ec43ab);
+        
+
+        circle_5e48637340004895b8ddbc2744641531.bindPopup(popup_a2db8e5d05ec47b99c86145200c2ac2b)
+        ;
+
+        
+    
+    
+            var circle_7fa8e457034a4077895a1312935bfeb4 = L.circle(
+                [60.034722, 30.337769],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_12c9be59edb54ea9b2eaf9657b044ad4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a88370e2503b48fbad333760a516cea5 = $(`<div id="html_a88370e2503b48fbad333760a516cea5" style="width: 100.0%; height: 100.0%;">УИК №379 Амосов-28.57% Беглов-46.71% Тихонова-21.67%</div>`)[0];
+            popup_12c9be59edb54ea9b2eaf9657b044ad4.setContent(html_a88370e2503b48fbad333760a516cea5);
+        
+
+        circle_7fa8e457034a4077895a1312935bfeb4.bindPopup(popup_12c9be59edb54ea9b2eaf9657b044ad4)
+        ;
+
+        
+    
+    
+            var circle_5fb3dfd70e0a4a1b8c4a6b5155c48be3 = L.circle(
+                [60.034641, 30.336125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_fce71e91a53f4fb0b5f5c843ee5a2939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5f76ee5ad184392a609eb10f66c5cff = $(`<div id="html_f5f76ee5ad184392a609eb10f66c5cff" style="width: 100.0%; height: 100.0%;">УИК №380 Амосов-11.35% Беглов-65.68% Тихонова-21.62%</div>`)[0];
+            popup_fce71e91a53f4fb0b5f5c843ee5a2939.setContent(html_f5f76ee5ad184392a609eb10f66c5cff);
+        
+
+        circle_5fb3dfd70e0a4a1b8c4a6b5155c48be3.bindPopup(popup_fce71e91a53f4fb0b5f5c843ee5a2939)
+        ;
+
+        
+    
+    
+            var circle_8823a6efd0974358be6e5ffb39d7969a = L.circle(
+                [60.035319, 30.34933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_e3e3425243ff4c7bbcaeef847ecb3450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23d5b60cf8144a2a94d8003aa8d2f7b3 = $(`<div id="html_23d5b60cf8144a2a94d8003aa8d2f7b3" style="width: 100.0%; height: 100.0%;">УИК №381 Амосов-26.0% Беглов-39.6% Тихонова-31.2%</div>`)[0];
+            popup_e3e3425243ff4c7bbcaeef847ecb3450.setContent(html_23d5b60cf8144a2a94d8003aa8d2f7b3);
+        
+
+        circle_8823a6efd0974358be6e5ffb39d7969a.bindPopup(popup_e3e3425243ff4c7bbcaeef847ecb3450)
+        ;
+
+        
+    
+    
+            var circle_5b02d259dc074f99a4b25600240d05f5 = L.circle(
+                [60.034722, 30.337769],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9c5caee8b6094a6cb3d5026b435f389a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_782ee983beda42608639621af89a9e81 = $(`<div id="html_782ee983beda42608639621af89a9e81" style="width: 100.0%; height: 100.0%;">УИК №382 Амосов-26.19% Беглов-52.16% Тихонова-18.35%</div>`)[0];
+            popup_9c5caee8b6094a6cb3d5026b435f389a.setContent(html_782ee983beda42608639621af89a9e81);
+        
+
+        circle_5b02d259dc074f99a4b25600240d05f5.bindPopup(popup_9c5caee8b6094a6cb3d5026b435f389a)
+        ;
+
+        
+    
+    
+            var circle_a2daad9f178b4a37a1686d7b26c50807 = L.circle(
+                [60.033459, 30.32583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_3f1557f2c46f4b638cceb274fbccef4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e38f998313cd45b4bdf7ffd8432fa6f9 = $(`<div id="html_e38f998313cd45b4bdf7ffd8432fa6f9" style="width: 100.0%; height: 100.0%;">УИК №383 Амосов-15.52% Беглов-64.87% Тихонова-18.1%</div>`)[0];
+            popup_3f1557f2c46f4b638cceb274fbccef4e.setContent(html_e38f998313cd45b4bdf7ffd8432fa6f9);
+        
+
+        circle_a2daad9f178b4a37a1686d7b26c50807.bindPopup(popup_3f1557f2c46f4b638cceb274fbccef4e)
+        ;
+
+        
+    
+    
+            var circle_af2259083ec04ff29a3183f08305ce3d = L.circle(
+                [60.033459, 30.32583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a4a1e628dad84debb396c4c92f0be2ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b625f3f79284f86b3c48ff6ce8a9e72 = $(`<div id="html_5b625f3f79284f86b3c48ff6ce8a9e72" style="width: 100.0%; height: 100.0%;">УИК №384 Амосов-19.62% Беглов-58.0% Тихонова-18.93%</div>`)[0];
+            popup_a4a1e628dad84debb396c4c92f0be2ce.setContent(html_5b625f3f79284f86b3c48ff6ce8a9e72);
+        
+
+        circle_af2259083ec04ff29a3183f08305ce3d.bindPopup(popup_a4a1e628dad84debb396c4c92f0be2ce)
+        ;
+
+        
+    
+    
+            var circle_35217f0fcc294478a0861f3603cdd001 = L.circle(
+                [60.034362, 30.350795],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_433253e834e7462b90eb4df4c1d6554f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f02133f970a34607a2a3ba328648161f = $(`<div id="html_f02133f970a34607a2a3ba328648161f" style="width: 100.0%; height: 100.0%;">УИК №385 Амосов-14.23% Беглов-64.33% Тихонова-18.04%</div>`)[0];
+            popup_433253e834e7462b90eb4df4c1d6554f.setContent(html_f02133f970a34607a2a3ba328648161f);
+        
+
+        circle_35217f0fcc294478a0861f3603cdd001.bindPopup(popup_433253e834e7462b90eb4df4c1d6554f)
+        ;
+
+        
+    
+    
+            var circle_53010ce38ead475796d4f7bb6ff83b73 = L.circle(
+                [60.034362, 30.350795],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_cb5539d70aa043c79f25c5188a17a244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6aee934f8a94454b36cd2c469ff19df = $(`<div id="html_c6aee934f8a94454b36cd2c469ff19df" style="width: 100.0%; height: 100.0%;">УИК №386 Амосов-18.98% Беглов-65.46% Тихонова-14.23%</div>`)[0];
+            popup_cb5539d70aa043c79f25c5188a17a244.setContent(html_c6aee934f8a94454b36cd2c469ff19df);
+        
+
+        circle_53010ce38ead475796d4f7bb6ff83b73.bindPopup(popup_cb5539d70aa043c79f25c5188a17a244)
+        ;
+
+        
+    
+    
+            var circle_dbb34df15b9a4c5ba6c9d08c00b98a5c = L.circle(
+                [60.035319, 30.34933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_7e2aac64f18e4d4e9f26da364d69e8cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72695a13bc4d423da9ece9b88dccd1b7 = $(`<div id="html_72695a13bc4d423da9ece9b88dccd1b7" style="width: 100.0%; height: 100.0%;">УИК №387 Амосов-22.39% Беглов-53.4% Тихонова-21.03%</div>`)[0];
+            popup_7e2aac64f18e4d4e9f26da364d69e8cf.setContent(html_72695a13bc4d423da9ece9b88dccd1b7);
+        
+
+        circle_dbb34df15b9a4c5ba6c9d08c00b98a5c.bindPopup(popup_7e2aac64f18e4d4e9f26da364d69e8cf)
+        ;
+
+        
+    
+    
+            var circle_93fe1e7286814befa53f8027174657a0 = L.circle(
+                [60.035319, 30.34933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_12e6e965fbf1485e995a05ccdacb5bfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_010dc29ee0634bb0a603dc6598644503 = $(`<div id="html_010dc29ee0634bb0a603dc6598644503" style="width: 100.0%; height: 100.0%;">УИК №388 Амосов-20.17% Беглов-60.22% Тихонова-16.02%</div>`)[0];
+            popup_12e6e965fbf1485e995a05ccdacb5bfa.setContent(html_010dc29ee0634bb0a603dc6598644503);
+        
+
+        circle_93fe1e7286814befa53f8027174657a0.bindPopup(popup_12e6e965fbf1485e995a05ccdacb5bfa)
+        ;
+
+        
+    
+    
+            var circle_46997b5f172d4a699badf1b74841f4c1 = L.circle(
+                [60.035319, 30.34933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_017c6f04da3b47c3aa15f08e931c7670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edd3a641dddd44d28037eb93f3758160 = $(`<div id="html_edd3a641dddd44d28037eb93f3758160" style="width: 100.0%; height: 100.0%;">УИК №389 Амосов-16.88% Беглов-60.35% Тихонова-19.43%</div>`)[0];
+            popup_017c6f04da3b47c3aa15f08e931c7670.setContent(html_edd3a641dddd44d28037eb93f3758160);
+        
+
+        circle_46997b5f172d4a699badf1b74841f4c1.bindPopup(popup_017c6f04da3b47c3aa15f08e931c7670)
+        ;
+
+        
+    
+    
+            var circle_bafc2ba140b74de8beb0066ecb802a77 = L.circle(
+                [60.033459, 30.32583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_34c5d17d5d1a4f1bb043944a1ffb3a27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5fb15782eb94cac84cc517c04ea69e5 = $(`<div id="html_a5fb15782eb94cac84cc517c04ea69e5" style="width: 100.0%; height: 100.0%;">УИК №390 Амосов-18.58% Беглов-59.13% Тихонова-19.2%</div>`)[0];
+            popup_34c5d17d5d1a4f1bb043944a1ffb3a27.setContent(html_a5fb15782eb94cac84cc517c04ea69e5);
+        
+
+        circle_bafc2ba140b74de8beb0066ecb802a77.bindPopup(popup_34c5d17d5d1a4f1bb043944a1ffb3a27)
+        ;
+
+        
+    
+    
+            var circle_a738f697448a4dce8f32fae2a05bb819 = L.circle(
+                [60.033459, 30.32583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_a04076da17274205b7e308ce5af47ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5720831bc5e4cf6b3c23aeb9134a513 = $(`<div id="html_c5720831bc5e4cf6b3c23aeb9134a513" style="width: 100.0%; height: 100.0%;">УИК №391 Амосов-19.43% Беглов-55.57% Тихонова-22.0%</div>`)[0];
+            popup_a04076da17274205b7e308ce5af47ff6.setContent(html_c5720831bc5e4cf6b3c23aeb9134a513);
+        
+
+        circle_a738f697448a4dce8f32fae2a05bb819.bindPopup(popup_a04076da17274205b7e308ce5af47ff6)
+        ;
+
+        
+    
+    
+            var circle_44034bc4c66941d9afb4c98e24383aad = L.circle(
+                [60.03922, 30.327331],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2f21af130a47493fb90094dcaaa542a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2688a0b2cef34ae0a30dfc2d5f60feaf = $(`<div id="html_2688a0b2cef34ae0a30dfc2d5f60feaf" style="width: 100.0%; height: 100.0%;">УИК №392 Амосов-19.31% Беглов-60.78% Тихонова-15.84%</div>`)[0];
+            popup_2f21af130a47493fb90094dcaaa542a2.setContent(html_2688a0b2cef34ae0a30dfc2d5f60feaf);
+        
+
+        circle_44034bc4c66941d9afb4c98e24383aad.bindPopup(popup_2f21af130a47493fb90094dcaaa542a2)
+        ;
+
+        
+    
+    
+            var circle_057c9986d95c4ddd91d9eec5c9110ba4 = L.circle(
+                [60.03922, 30.327331],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_ae9f5a0b04ec4c869642c6caa76a6b1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52995a414a224c57b356cbbdb8be448e = $(`<div id="html_52995a414a224c57b356cbbdb8be448e" style="width: 100.0%; height: 100.0%;">УИК №393 Амосов-16.15% Беглов-64.93% Тихонова-16.49%</div>`)[0];
+            popup_ae9f5a0b04ec4c869642c6caa76a6b1d.setContent(html_52995a414a224c57b356cbbdb8be448e);
+        
+
+        circle_057c9986d95c4ddd91d9eec5c9110ba4.bindPopup(popup_ae9f5a0b04ec4c869642c6caa76a6b1d)
+        ;
+
+        
+    
+    
+            var circle_8d947190f6014b77a9ad12ff641b6311 = L.circle(
+                [60.034641, 30.336125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_6faf4dff523941238989dc399c570abb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b182c2e82a3451e821f21384e393f02 = $(`<div id="html_9b182c2e82a3451e821f21384e393f02" style="width: 100.0%; height: 100.0%;">УИК №394 Амосов-15.16% Беглов-65.98% Тихонова-15.98%</div>`)[0];
+            popup_6faf4dff523941238989dc399c570abb.setContent(html_9b182c2e82a3451e821f21384e393f02);
+        
+
+        circle_8d947190f6014b77a9ad12ff641b6311.bindPopup(popup_6faf4dff523941238989dc399c570abb)
+        ;
+
+        
+    
+    
+            var circle_a59e3b684224497c9ea4ea15809a9780 = L.circle(
+                [60.03922, 30.327331],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_7f62b49a6eee48d8870e8802a8f1bb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1e04a6fd8fb438fb3b2f0fa5c556201 = $(`<div id="html_d1e04a6fd8fb438fb3b2f0fa5c556201" style="width: 100.0%; height: 100.0%;">УИК №395 Амосов-21.49% Беглов-58.38% Тихонова-17.53%</div>`)[0];
+            popup_7f62b49a6eee48d8870e8802a8f1bb09.setContent(html_d1e04a6fd8fb438fb3b2f0fa5c556201);
+        
+
+        circle_a59e3b684224497c9ea4ea15809a9780.bindPopup(popup_7f62b49a6eee48d8870e8802a8f1bb09)
+        ;
+
+        
+    
+    
+            var circle_a453e03722874b089252eb239127bd36 = L.circle(
+                [60.037629, 30.332774],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_35edf4f33790484ea1403275f1b0a9cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de4a616c8309406bb7f77fabab45b841 = $(`<div id="html_de4a616c8309406bb7f77fabab45b841" style="width: 100.0%; height: 100.0%;">УИК №396 Амосов-17.38% Беглов-58.26% Тихонова-21.98%</div>`)[0];
+            popup_35edf4f33790484ea1403275f1b0a9cf.setContent(html_de4a616c8309406bb7f77fabab45b841);
+        
+
+        circle_a453e03722874b089252eb239127bd36.bindPopup(popup_35edf4f33790484ea1403275f1b0a9cf)
+        ;
+
+        
+    
+    
+            var circle_098d04e5c54f428cb944e828c920530b = L.circle(
+                [60.03922, 30.327331],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_9894214f17b24e4aa318504b8abed52e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ffe86019cd4afe851a0f95bb0a931d = $(`<div id="html_96ffe86019cd4afe851a0f95bb0a931d" style="width: 100.0%; height: 100.0%;">УИК №397 Амосов-16.11% Беглов-60.66% Тихонова-20.22%</div>`)[0];
+            popup_9894214f17b24e4aa318504b8abed52e.setContent(html_96ffe86019cd4afe851a0f95bb0a931d);
+        
+
+        circle_098d04e5c54f428cb944e828c920530b.bindPopup(popup_9894214f17b24e4aa318504b8abed52e)
+        ;
+
+        
+    
+    
+            var circle_437873637941414bb83fc7ee7a29f62d = L.circle(
+                [60.039324, 30.338425],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_10fadc820bdf46e9a84b2402411f34af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bdd4f2650424d1992851e2fcf39075d = $(`<div id="html_1bdd4f2650424d1992851e2fcf39075d" style="width: 100.0%; height: 100.0%;">УИК №398 Амосов-15.83% Беглов-66.75% Тихонова-16.09%</div>`)[0];
+            popup_10fadc820bdf46e9a84b2402411f34af.setContent(html_1bdd4f2650424d1992851e2fcf39075d);
+        
+
+        circle_437873637941414bb83fc7ee7a29f62d.bindPopup(popup_10fadc820bdf46e9a84b2402411f34af)
+        ;
+
+        
+    
+    
+            var circle_fadca774e5014bb4a02611c71b8ebcfe = L.circle(
+                [60.039324, 30.338425],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_241a8e2359ff4d769b443d46ca4f20ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b434f9c8f9f412582a195600cf38c4e = $(`<div id="html_0b434f9c8f9f412582a195600cf38c4e" style="width: 100.0%; height: 100.0%;">УИК №399 Амосов-19.3% Беглов-60.65% Тихонова-17.04%</div>`)[0];
+            popup_241a8e2359ff4d769b443d46ca4f20ae.setContent(html_0b434f9c8f9f412582a195600cf38c4e);
+        
+
+        circle_fadca774e5014bb4a02611c71b8ebcfe.bindPopup(popup_241a8e2359ff4d769b443d46ca4f20ae)
+        ;
+
+        
+    
+    
+            var circle_ad08215608a34105ba2161336b68f9b1 = L.circle(
+                [60.039324, 30.338425],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_2de821977ab747759fe350fbba516798 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7d791db7c0842c19dc966ff09a1acfd = $(`<div id="html_a7d791db7c0842c19dc966ff09a1acfd" style="width: 100.0%; height: 100.0%;">УИК №400 Амосов-16.64% Беглов-62.62% Тихонова-17.07%</div>`)[0];
+            popup_2de821977ab747759fe350fbba516798.setContent(html_a7d791db7c0842c19dc966ff09a1acfd);
+        
+
+        circle_ad08215608a34105ba2161336b68f9b1.bindPopup(popup_2de821977ab747759fe350fbba516798)
+        ;
+
+        
+    
+    
+            var circle_e9be6a40728c45dda2f72fc23a2bc71e = L.circle(
+                [60.039324, 30.338425],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3875e4412e74479bd73679ff195789d);
+        
+    
+        var popup_001ef524b7f943d89b6ab45d7c7cdee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4fe96771ae245d2ac11995f107f8f3a = $(`<div id="html_e4fe96771ae245d2ac11995f107f8f3a" style="width: 100.0%; height: 100.0%;">УИК №401 Амосов-19.76% Беглов-53.39% Тихонова-19.47%</div>`)[0];
+            popup_001ef524b7f943d89b6ab45d7c7cdee0.setContent(html_e4fe96771ae245d2ac11995f107f8f3a);
+        
+
+        circle_e9be6a40728c45dda2f72fc23a2bc71e.bindPopup(popup_001ef524b7f943d89b6ab45d7c7cdee0)
+        ;
+
+        
+    
+</script>
